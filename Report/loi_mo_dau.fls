@@ -1,0 +1,7 @@
+PWD /home/ndhai/Repos/LaTeX-Template/Report
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /home/ndhai/.texlive/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT tex/loi_mo_dau.tex
+OUTPUT loi_mo_dau.log
+INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
