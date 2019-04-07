@@ -1,11 +1,146 @@
 \chapter{Cơ sở lý thuyết}
-\section{Html}
-Html là ngôn ngữ được dùng để định nghĩa cấu trúc của một trang web, được ra đời từ những năm 1990, cho tới nay HTML đã trải qua năm phiên bản, tại phiên bản hiện tại (HTML5) HTML được bổ sung thêm nhiều tính năng mới, như WebRTC, trình chơi video, vẽ canvas, service workers, ... giúp xây dựng các ứng dụng web đa dạng hơn trước, ngoài ra HTML còn cung cấp một số thẻ semantic giúp bọ của Google, hay những công cụ tìm kiếm khác dễ dàng đọc cấu trúc của website hơn. Điều này mang tới lợi ích cho việc SEO nhưng không bắt buộc lập trình viên phải sử dụng.
-\section{Css}
-Css là ngôn ngữ dùng để thêm các thuộc tính hiển thị cho trang web, giúp trang web Trông đẹp mắt và sống động hơn. Bằng cách định nghĩa thuộc tính cho các thẻ trong HTML, trình duyệt có thể hiểu và hiển thị trang web tới người dùng.
-\section{Js}
-Thay vì chỉ làm website trông sống động hơn, JS giúp trang web thực sự linh động, giúp người dùng có thể tương tác với trang web giống như một phần mềm hay ứng dụng bản địa mà không cần phải làm mới một cách thủ công như trước. Sự ra đời của JS giúp website tương tác với người dùng tốt hơn.
- \section{Bootstrap}
- Bootstrap là một framework css, được Twitter chống lưng, nói đơn giản thì Bootstrap chính là mã css được định nghĩa sẵn nhằm giúp lập trình viên nhanh chóng tạo ra các ứng dụng web mà không phải lo lắng quá nhiều tới việc căn chỉnh các thành phần trong css, ngoài ra Bootstrap cũng đảm bảo việc tương thích giữa các trình duyệt, giúp lập trình viên chỉ cần tập trung vào việc lập trình mà không mất nhiều công sức chỉnh sửa và test trên các thiết bị, trình duyệt khác nhau. Hiện tại Bootstrap đã ra mắt tới phiên bản thứ 4.
- \section{Php}
- Php là một ngôn ngữ chạy ở phía server, hay backend. Tuy có khá nhiều người nhận xét là Php kém bảo mật, xong đây là một ngôn ngữ khá dễ học, cộng đồng phát triển đông đảo, nhiều framework mã nguồn mở khác cũng được xây dựng từ Php có thể kể đến như Laravel, Wordpress, CodeIgniter, ..... ngoài ra Php cũng có khả năng tương thích ngược khá tốt, tốc độ thì ngày càng được cải thiện, hiện tại vẫn có tới 80\% website được xây dựng bằng Php.
+\section{HTML}
+\subsection{Giới thiệu ngôn ngữ:}
+HTML là ngôn ngữ được dùng để định nghĩa cấu trúc của một trang web, được ra đời vào năm 1990, cho tới hiện tại HTML đã trả qua năm phiên bản, tại phiên bản hiện tại (HTML5) HTML được bổ sung thêm nhiều tính năng mới như WebRTC, trình chơi video, drag \& drop, service worker,... giúp xây dựng các ứng dụng web đa dạng và mạnh mẽ hơn trước, ngoài ra HTML còn cung cấp một số thẻ semantic giúp bọ của những công cụ tìm kiếm như Google, Yandex,... đễ dàng đọc cấu trúc và các thành phần quan trọng của website hơn. Điều này mang tới lợi ích cho việc SEO nhưng không bắt buộc lập trình viên phải sử dụng.\par
+\subsection{Cú pháp cơ bản}
+Cú pháp và thẻ trong HTML không cần độ chính xác tuyệt đối để chạy được
+giống như những ngôn ngữ như XML, XHTML thay vào đó những thẻ hay cú pháp khác thường mà trình duyệt không hỗ trợ thì sẽ bị trình duyệt lờ đi và không có tác dụng gì, việc này giúp các trình duyệt phiên bản cũ vẫn có thể xem được nhưng trang HTML phiên bản cao hơn tuy rằng những trình duyệt này sẽ không thể sử dụng được các tính năng mới được cung cấp (Đảm bảo tính tương thích ngược).\par
+Hiện nay HTML đang muốn hướng lập trình viên tạo ra những trang web mới sử dụng các thẻ semantic (ngữ nghĩa) thay cho việc dùng <div> hay <span>vì hai thẻ này không diễn tả được nhiều về các thành phần của một trang web, một số thẻ ngữ nghĩa thường dùng là:
+\begin{center}
+\begin{tabular}{|l|l|}
+    \cline{1-2}
+    \textbf{Thẻ} & \textbf{Chức năng} \\ \cline{1-2}
+    <article> & Liệt kê các bài viết \\ \cline{1-2}
+    <aside> & Phần nội dung bên lề \\ \cline{1-2}
+    <figure> & Chứa các hình ảnh, biểu đồ, .... \\ \cline{1-2}
+    <figcaption> & Chứa phần mô tả hình ảnh cho thẻ <figure> \\ \cline{1-2}
+    <header> & Phần đầu trang web \\ \cline{1-2}
+    <footer> & Phần chân trang \\ \cline{1-2}
+    <main> & Phần nội dung chính của tài liệu \\ \cline{1-2}
+    <mark> & Phần văn bản được đánh dấu, làm nổi bật \\ \cline{1-2}
+    <nav> & Phần thanh định hướng \\ \cline{1-2}
+    <section> & Định nghĩa các phân đoạn trong trang web \\ \cline{1-2}
+    <details> & Chứa nội dung chi tiết, người dùng có thể xem hay ẩn đi \\ \cline{1-2}
+    <summary> & Nêu tóm lược nội dung, kết hợp với thẻ <details> \\ \cline{1-2}
+    <time> & Thời gian, có thể là thời gian đăng bài, thời gian chỉnh sửa, ... \\ \cline{1-2}
+    <video> & Nhúng nội dung video vào trang web \\ \cline{1-2}
+\end{tabular}
+\end{center}
+
+Một file HTML thường có phần mở rộng là \textbf{*.html} và có cấu trúc như sau:
+\lstset{language=Html}
+\begin{center}
+\begin{lstlisting}[frame=single]
+ <html>
+ <head>
+    <title>Html example</title>
+    <meta charset="utf-8">
+ </head>
+ <body>
+    Hello world
+ </body>
+ </html>
+\end{lstlisting}
+\end{center}
+Cặp thẻ <html><html> được dùng để bao toàn bộ nội dung file html, cặp thẻ <head></head> dùng để chứa khai báo về trang web như tiêu đề, nối các file css, các siêu nội dung (meta-content),... Cuối cùng là cặp thẻ <body> dùng để chứa nội dung của toàn bộ trang web.
+\section{CSS}
+CSS là ngôn ngữ dùng để bổ sung các thuộc tính hiển thị cho trang web về mặt màu sắc và cách thức hiện thị của nội dung trên trang web bằng cách định nghĩa các thuộc tính cho những thẻ HTML trong trang web, các thuộc tính này phải được trình duyệt hỗ trợ, trong trường hợp cố tình dùng những thuộc tính không được hỗ trợ, trình duyệt sẽ lờ những thuộc tính đó và chỉthực thi các thuộc tính được hỗ trợ.\par
+Hiện tại phiên bản mới nhất của CSS là CSS 3 với rất nhiều thuộc tính mới giúp việc căn chỉnh các thành phần của trang web dễ dàng hơn, một số tính năng đáng nói có thể kể đến như:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|l|}
+    \cline{1-2}
+    \textbf{Thuộc tính} & \textbf{Chức năng}\\ \cline{1-2} 
+    flexbox & Căn chỉnh vị trí phần tử theo một chiều cố định (ngang hoặc dọc)\\ \cline{1-2}
+    Gird layout & Căn chỉnh vị trí của phần tử theo cả chiều ngang lẫn chiều dọc\\ \cline{1-2}
+\end{tabular}
+\end{table}
+
+Hiện tại cả hai thuộc tính này đều đã được tích hợp trong Bootstrap 4 một framework css rất nổi tiếng và được nhiều lập trình viên sử dụng.
+\section{Bootstrap}
+Bootstrap là một framework css, hiểu một cách đơn giản thì Bootstrap là những class css được định nghĩa sẵn thuộc tính, việc dùng các class được Bootstrap định nghĩa sẵn giúp lập trình viên nhanh chóng tạo được những trang web có giao diện đẹp, hiện đại mà không phải viết nhiều css.\par
+Việc dùng các class có sẵn giúp tạo lập tiêu chuẩn chung giữa các lập trình viên về việc đặt tên class vì thường khi sử dụng css thuần để viết, mỗi lập trình viên có thể viết những tên class không thống nhất dẫn tới việc các thuộc tính ghi đè lên nhau và vô hình chung làm kích thước cũng như độ minh bạch của file css ngày một giảm đi và khó để bảo trì hơn.\par
+Một vấn đề khác khi viết css thuần là lập trình viên kinh nghiệm khi phải xử lý fallback cho những trình duyệt khác nhau và những phiên bản trình duyệt cũ cũng như xử lý media query cho phù hợp với nhiều cỡ màn hình khác nhau.\par
+Việc cài đặt Bootstrap cũng tương đối đơn giản, chỉ cần thêm những dòng sau vào giữa cặp thẻ <head></head> trong file html
+
+\lstset{language=Html}
+\vspace{-1em}
+\begin{lstlisting}[frame=single]
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+\end{lstlisting}
+
+Và những dòng sau và trước thẻ đóng </body>
+
+\vspace{-1em}
+\begin{lstlisting}[frame=single]
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+\end{lstlisting}
+
+File html sau khi cài đặt Bootstrap sẽ nhìn như sau
+
+\begin{center}
+\vspace{-2em}
+\begin{lstlisting}[frame=single]
+ <html>
+ <head>
+    <title>Html example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+ </head>
+ <body>
+    Hello world
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+ </body>
+ </html>
+\end{lstlisting}
+\vspace{-1.5em}
+\end{center}
+
+Việc thêm thư viện javascript vào trước đóng thẻ </body> giúp trình duyệt tải và hiển thị html cũng như css trước sau đó mới tải đến Javascript, việc này giúp tránh hiện tượng trang web trắng xóa, không hiển thị nội dung gì khi trình duyệt cố tải những thư viện Javascript.\par
+\textbf{Lưu ý:} Phải đặt Jquery trước các thư viện javascript khác vì đa phần những thư viện của Bootstrap đều dùng Jquery và sẽ không hoạt động nếu thiếu Jquery.
+\section{PHP}
+\subsection{Giới thiệu ngôn ngữ}
+Php là một ngôn ngữ chạy ở phía Server (backend) dùng để nhận truy vấn từ người dùng, xử lý và trả về thông tin phù hợp, tuy được coi là một ngôn ngữ có độ bảo mật không được cao xong đây lại là một ngôn ngữ dễ học với cộng đồng hỗ trợ và phát triển đông đảo, hiện tại phần lớn các website trên internet vẫn sử dụng php, Php cũng được sử dụng trong nhiều framework nổi tiếng có thể kể đến như: Joomla, Wordpress, Laravel, Code Igniter,...\par
+Tuy là vậy nhưng Php thuần cũng có những nhược điểm như dễ học nhưng không dễ viết, vì php thuần không hề bó buộc lập trình viên phải lập trình theo một tiêu chuẩn nhất định như những ngôn ngữ khác, lập trình viên có thể tùy ý dùng snake\_case để khai báo tên lớp, tên hàm, cũng có thể dùng CamelCase; Tên lớp cũng có thể không giống với tên file dễ gây nhầm lẫn.\par
+Từ những vấn đề đó cộng đồng đã cùng đưa ra bộ chuẩn PSR (Php Standards Recommendations) nhằm đưa ra các khuyến nghị để thống nhất cách viết php, tuy nhiên đây cũng chỉ là những khuyến nghị (Recommandations) chứ không được tích hợp vào ngôn ngữ nên những lập trình viên khi lần đầu sử dụng dễ viết ra những chương trình chạy được nhưng lại khó để duy trì và phát triển cũng như khó để hai lập trình viên có thể viết cùng một code base (do phong cách code của mỗi người là khác nhau).
+\subsection{Cú pháp cơ bản}
+Các file php có phần mở rộng là \textbf{*.php}, tuy nhiểu để trình dịch hiểu được ta cần đặt các đoạn mã Php vào trong cặp thẻ \textbf{<?php} và \textbf{?>} những lệnh được đặt ngoài hai cặp thẻ này đều được coi là văn bản thông thường và được Php trả về dưới dạng file Html.\par
+Ngôn ngữ Php được viết dựa vào ngôn ngữ C nên phong cách code mang nhiều hơi hướng C như việc phải dùng dấu \textbf{;} khi kết thúc mỗi dòng code, phân biệt chữ hoa chữ thường, cũng như là một ngôn ngữ hướng chức năng (Tới phiên bản thứ 5 mới hỗ trợ việc lập trình hướng đối tượng)
+\lstset{language=Php}
+\begin{center}
+\vspace{-2em}
+\begin{lstlisting}[frame=single]
+<?php
+    function helloWord()
+    {
+        echo 'Hello World';
+    }
+    helloWorld(); //return Hello World
+\end{lstlisting}
+\end{center}
+\section{MySQL}
+\subsection{Giới thiệu ngôn ngữ}
+MySQL là một hệ cơ sở dữ liệu quan hệ, trong hệ cơ sở dữ liệu quan hệ dữ liệu được biểu dưới dạng các bảng có liên kết với nhau dựa vào khóa chính hay các khóa phụ. Hiện nay có rất nhiều hệ cơ sở dữ liệu quan hệ như: Oracle, Portgre, mariadb (một bản folk của MySQL),... Tuy nhiên lý do MySQL được chọn là vì:
+\begin{enumerate}
+\vspace{-1em}
+\itemsep0em
+\item Quy mô cửa hàng không quá lớn, lượng truy vấn dữ liệu không nhiều
+\item Được tích hợp sẵn trong Xampp cũng như phần lớn các shared host hiện nay
+\item Miễn phí sử dụng
+\end{enumerate}
+\subsection{Cú pháp cơ bản}
+\begin{center}
+
+\begin{tabularx}{\linewidth}{|l|X|}
+ \cline{1-2}
+ \textbf{Công việc cần làm} & \textbf{câu lệnh} \\ \cline{1-2}
+ Lấy thông tin từ bảng & SELECT * FROM tên\_bảng WHERE điều\_kiện \\ \cline{1-2}
+ Nhập thông tin vào bảng & INSERT INTO Tên\_bảng (tên\_cột\_1, tên\_cột\_2, tên\_cột\_3,...) VALUES (giá\_trị\_cột\_1, giá\_trị\_cột\_2, giá\_trị\_cột\_3,...)\\ \cline{1-2}
+ Xóa thông tin khỏi bảng & DELETE FROM Tên\_bảng WHERE Điều\_kiện\\ \cline{1-2}
+ Cập nhật thông tin bảng & UPDATE Tên\_bảng SET cột\_1 = giá\_trị\_mới, cột\_2 = giá\_trị\_mới, cột\_n = giá\_trị\_mới WHERE điều\_kiện\\ \cline{1-2}
+\end{tabularx}
+\end{center}

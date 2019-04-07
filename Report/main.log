@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.5)  5 APR 2019 04:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.5)  7 APR 2019 01:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -550,7 +550,16 @@ File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 calc.code.tex
 File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
-) (/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip43
+\enit@outerparindent=\dimen161
+\enit@toks=\toks30
+\enit@inbox=\box38
+\enit@count@id=\count114
+\enitdp@description=\count115
+)
+(/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
@@ -564,15 +573,15 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box38
-\beforetitleunit=\skip43
-\aftertitleunit=\skip44
-\ttl@plus=\dimen161
-\ttl@minus=\dimen162
-\ttl@toksa=\toks30
-\titlewidth=\dimen163
-\titlewidthlast=\dimen164
-\titlewidthfirst=\dimen165
+\ttl@box=\box39
+\beforetitleunit=\skip44
+\aftertitleunit=\skip45
+\ttl@plus=\dimen162
+\ttl@minus=\dimen163
+\ttl@toksa=\toks31
+\titlewidth=\dimen164
+\titlewidthlast=\dimen165
+\titlewidthfirst=\dimen166
 )
 (/usr/share/texmf-dist/tex/latex/romannum/romannum.sty
 Package: romannum 2009/09/03 v1.0b roman numerals
@@ -580,37 +589,83 @@ Package: romannum 2009/09/03 v1.0b roman numerals
 (/usr/share/texmf-dist/tex/latex/stdclsdv/stdclsdv.sty
 Package: stdclsdv 2009/09/04 v1.1a Sectional divisions
 ))
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count116
+\lst@gtempboxa=\box40
+\lst@token=\toks32
+\lst@length=\count117
+\lst@currlwidth=\dimen167
+\lst@column=\count118
+\lst@pos=\count119
+\lst@lostspace=\dimen168
+\lst@width=\dimen169
+\lst@newlines=\count120
+\lst@lineno=\count121
+\lst@maxwidth=\dimen170
+
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+\c@lstnumber=\count122
+\lst@skipnumbers=\count123
+\lst@framebox=\box41
+)
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2018/09/02 1.7 listings configuration
+))
+Package: listings 2018/09/02 1.7 (Carsten Heinz)
+
+(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen171
+\ar@mcellbox=\box42
+\extrarowheight=\dimen172
+\NC@list=\toks33
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box43
+)
+\TX@col@width=\dimen173
+\TX@old@table=\dimen174
+\TX@old@col=\dimen175
+\TX@target=\dimen176
+\TX@delta=\dimen177
+\TX@cols=\count124
+\TX@ftn=\toks34
+)
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip45
-\f@nch@O@elh=\skip46
-\f@nch@O@erh=\skip47
-\f@nch@O@olh=\skip48
-\f@nch@O@orh=\skip49
-\f@nch@O@elf=\skip50
-\f@nch@O@erf=\skip51
-\f@nch@O@olf=\skip52
-\f@nch@O@orf=\skip53
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
 ) (./config.tex)
-(./main.aux (./tex/loi_mo_dau.aux) (./tex/chuong_1.aux))
+(./main.aux (./tex/loi_mo_dau.aux) (./tex/chuong_1.aux) (./tex/chuong_2.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for T5+ptm on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for T5+ptm on input line 28.
 
 (/usr/share/texmf-dist/tex/latex/vntex/t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
@@ -651,17 +706,17 @@ File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
-\scratchdimen=\dimen166
-\scratchbox=\box39
-\nofMPsegments=\count115
-\nofMParguments=\count116
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count117
-\MPscratchDim=\dimen167
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count125
+\scratchdimen=\dimen178
+\scratchbox=\box44
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen179
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks36
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -709,7 +764,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box40
+\AtBeginShipoutBox=\box45
+\c@lstlisting=\count131
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -743,33 +799,42 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 29.
 <fig/Logo_ICTU.png, id=4, 359.3425pt x 359.3425pt>
 File: fig/Logo_ICTU.png Graphic file (type png)
 <use fig/Logo_ICTU.png>
-Package pdftex.def Info: fig/Logo_ICTU.png  used on input line 25.
+Package pdftex.def Info: fig/Logo_ICTU.png  used on input line 29.
 (pdftex.def)             Requested size: 100.37537pt x 100.37395pt.
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <18> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 29.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <7> on input line 29.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.25 \maketitle
-               
-? 
+l.29     \maketitle
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.25 \maketitle
-               
-? 
+l.29     \maketitle
+                   
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 29.
 [1
 
 
@@ -796,32 +861,186 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
  (./tex/chuong_1.tex
 Ch\uhorn \ohorn ng 1.
-) [1
+
+Overfull \hbox (5.12347pt too wide) in paragraph at lines 8--9
+\T5/ptm/m/n/14.4 mîi sû döng c¡c th´ semantic (ngú ngh¾a) thay cho vi»c dòng <d
+iv> hay <span>v¼
+ []
+
+[2
 
 
 
+] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
+)
+LaTeX Font Info:    Try loading font information for T5+pcr on input line 33.
 
-] [2]
+(/usr/share/texmf-dist/tex/latex/vntex/t5pcr.fd
+File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
+)
+LaTeX Font Info:    Font shape `T5/pcr/bx/n' in size <14.4> not available
+(Font)              Font shape `T5/pcr/b/n' tried instead on input line 34.
+ [3]
+Overfull \hbox (12.92816pt too wide) in paragraph at lines 52--58
+ [][] 
+ []
+
+
+Overfull \hbox (11.74742pt too wide) in paragraph at lines 62--62
+\T5/ptm/m/n/14.4 nhúng class css ^^_÷ñc ^^_ành ngh¾a s®n thuëc t½nh, vi»c dòng 
+c¡c class ^^_÷ñc Bootstrap
+ []
+
+[4] [5] [6] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2018/09/02 1.7 listings language file
+)
+Missing character: There is no   in font ucrr8v!
+LaTeX Font Info:    Font shape `T5/pcr/m/it' in size <14.4> not available
+(Font)              Font shape `T5/pcr/m/sl' tried instead on input line 122.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+\T5/ptm/m/n/14.4 t¶n_cët_3,...) VALUES (gi¡_trà_cët_1,
+ []
+
+[7]) [8]
+\openout2 = `tex/chuong_2.aux'.
+
+ (./tex/chuong_2.tex
 Ch\uhorn \ohorn ng 2.
-[3
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 11.
+(/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+ [9
 
 
-] (./main.aux (./tex/loi_mo_dau.aux) (./tex/chuong_1.aux)) ) 
+
+]
+<fig/uc_all.png, id=49, 396.48125pt x 508.90125pt>
+File: fig/uc_all.png Graphic file (type png)
+<use fig/uc_all.png>
+Package pdftex.def Info: fig/uc_all.png  used on input line 49.
+(pdftex.def)             Requested size: 277.53497pt x 356.22844pt.
+ [10] [11 <./fig/uc_all.png>]
+<fig/uc_user.png, id=58, 756.8275pt x 375.4025pt>
+File: fig/uc_user.png Graphic file (type png)
+<use fig/uc_user.png>
+Package pdftex.def Info: fig/uc_user.png  used on input line 56.
+(pdftex.def)             Requested size: 454.1pt x 225.24323pt.
+ [12 <./fig/uc_user.png>]
+<fig/uc_admin.png, id=63, 719.68875pt x 637.38126pt>
+File: fig/uc_admin.png Graphic file (type png)
+<use fig/uc_admin.png>
+Package pdftex.def Info: fig/uc_admin.png  used on input line 63.
+(pdftex.def)             Requested size: 431.81659pt x 382.4317pt.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.91 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.91 \end{tabularx}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.91 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.91 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.91 \end{tabularx}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.91 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.91 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.91 \end{tabularx}
+                   
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.91 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[13 <./fig/uc_admin.png (PNG copy)>]) [14] (./main.aux (./tex/loi_mo_dau.aux)
+(./tex/chuong_1.aux) (./tex/chuong_2.aux)) ) 
 Here is how much of TeX's memory you used:
- 14100 strings out of 492616
- 270843 string characters out of 6135178
- 323160 words of memory out of 5000000
- 17695 multiletter control sequences out of 15000+600000
- 22328 words of font info for 28 fonts, out of 8000000 for 9000
+ 18263 strings out of 492616
+ 334731 string characters out of 6135178
+ 689585 words of memory out of 5000000
+ 21807 multiletter control sequences out of 15000+600000
+ 25949 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,57p,914b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-d
-ist/fonts/enc/dvips/vntex/t5.enc}</usr/share/texmf-dist/fonts/type1/vntex/urwvn
-/utmb8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmr8v.pfb>
-Output written on main.pdf (6 pages, 82500 bytes).
+ 55i,13n,57p,914b,3006s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dv
+ips/vntex/t5.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/ucrb8v.pfb></usr/share/texmf-
+dist/fonts/type1/vntex/urwvn/ucrr8v.pfb></usr/share/texmf-dist/fonts/type1/vnte
+x/urwvn/ucrro8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmb8v.pfb><
+/usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmr8v.pfb>
+Output written on main.pdf (16 pages, 297799 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

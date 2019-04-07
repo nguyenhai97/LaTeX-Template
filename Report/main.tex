@@ -9,30 +9,35 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usetikzlibrary{calc}
+\usepackage{enumitem}
 \usepackage{eso-pic}
 \usepackage{indentfirst}
 \usepackage[explicit]{titlesec}
 \usepackage{romannum}
+\usepackage{listings}
+\usepackage{tabularx}
 \usepackage{fancyhdr}
 \input{config.tex}
 
 \renewcommand{\baselinestretch}{1.5}
 \setlength{\headheight}{17pt}
+\lstset{basicstyle=\ttfamily,breaklines=true}
 
 \title{xây dựng website bán linh kiện điện tử cho cửa hàng Nam Hải}
 \author{Nguyễn Đăng Hải}
 \begin{document}
-\maketitle
+    \maketitle
     \pagenumbering{arabic}
     \pagestyle{fancyplain}
     \cfoot[]{}
     \tableofcontents
 
     \clearHeading
+    \pagestyle{fancyplain}
+    \cfoot[]{}
     \include{tex/loi_mo_dau}
-
-    \clearHeading
+    \cfoot{\thepage}
     \include{tex/chuong_1}
-    \chapter{Phân tích thiết kế hệ thống}
+    \include{tex/chuong_2}
 
 \end{document}
