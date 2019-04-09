@@ -7,14 +7,20 @@
 \usepackage[vietnamese]{babel}
 \usepackage[bottom=2cm, top=2cm, left=3cm, right=2cm]{geometry}
 \usepackage{graphicx}
+%draw
 \usepackage{tikz}
 \usetikzlibrary{calc}
 \usepackage{enumitem}
 \usepackage{eso-pic}
 \usepackage{indentfirst}
+%change \chapter and \section style
 \usepackage[explicit]{titlesec}
 \usepackage{romannum}
+%show source code
 \usepackage{listings}
+%rotate images
+\usepackage{rotating}
+%tabular with wrap
 \usepackage{tabularx}
 \usepackage{fancyhdr}
 \input{config.tex}
@@ -26,18 +32,18 @@
 \title{xây dựng website bán linh kiện điện tử cho cửa hàng Nam Hải}
 \author{Nguyễn Đăng Hải}
 \begin{document}
-    \maketitle
-    \pagenumbering{arabic}
-    \pagestyle{fancyplain}
-    \cfoot[]{}
-    \tableofcontents
+\maketitle
+\pagenumbering{arabic}
+\pagestyle{fancyplain}
+\cfoot[]{}
+\tableofcontents
 
-    \clearHeading
-    \pagestyle{fancyplain}
-    \cfoot[]{}
-    \include{tex/loi_mo_dau}
-    \cfoot{\thepage}
-    \include{tex/chuong_1}
-    \include{tex/chuong_2}
+\clearHeading
+\pagestyle{fancyplain}
+\cfoot[]{}
+\include{tex/loi_mo_dau}
+\cfoot{\thepage}
+\include{tex/chuong_1}
+\include{tex/chuong_2}
 
 \end{document}

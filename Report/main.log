@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.5)  7 APR 2019 01:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.5)  9 APR 2019 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -614,58 +614,70 @@ File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
 Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
+(/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count124
+\rotFPtop=\skip46
+\rotFPbot=\skip47
+\rot@float@box=\box42
+\rot@mess@toks=\toks33
+)
 (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen171
-\ar@mcellbox=\box42
+\ar@mcellbox=\box43
 \extrarowheight=\dimen172
-\NC@list=\toks33
-\extratabsurround=\skip46
-\backup@length=\skip47
-\ar@cellbox=\box43
+\NC@list=\toks34
+\extratabsurround=\skip48
+\backup@length=\skip49
+\ar@cellbox=\box44
 )
 \TX@col@width=\dimen173
 \TX@old@table=\dimen174
 \TX@old@col=\dimen175
 \TX@target=\dimen176
 \TX@delta=\dimen177
-\TX@cols=\count124
-\TX@ftn=\toks34
+\TX@cols=\count125
+\TX@ftn=\toks35
 )
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip48
-\f@nch@O@elh=\skip49
-\f@nch@O@erh=\skip50
-\f@nch@O@olh=\skip51
-\f@nch@O@orh=\skip52
-\f@nch@O@elf=\skip53
-\f@nch@O@erf=\skip54
-\f@nch@O@olf=\skip55
-\f@nch@O@orf=\skip56
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
 ) (./config.tex)
 (./main.aux (./tex/loi_mo_dau.aux) (./tex/chuong_1.aux) (./tex/chuong_2.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Try loading font information for T5+ptm on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for T5+ptm on input line 34.
 
 (/usr/share/texmf-dist/tex/latex/vntex/t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
@@ -706,17 +718,17 @@ File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count126
 \scratchdimen=\dimen178
-\scratchbox=\box44
-\nofMPsegments=\count126
-\nofMParguments=\count127
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count128
+\scratchbox=\box45
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count129
 \MPscratchDim=\dimen179
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks36
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks37
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -764,8 +776,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box45
-\c@lstlisting=\count131
+\AtBeginShipoutBox=\box46
+\c@lstlisting=\count132
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -799,23 +811,23 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 35.
 <fig/Logo_ICTU.png, id=4, 359.3425pt x 359.3425pt>
 File: fig/Logo_ICTU.png Graphic file (type png)
 <use fig/Logo_ICTU.png>
-Package pdftex.def Info: fig/Logo_ICTU.png  used on input line 29.
+Package pdftex.def Info: fig/Logo_ICTU.png  used on input line 35.
 (pdftex.def)             Requested size: 100.37537pt x 100.37395pt.
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <18> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 35.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.29     \maketitle
+l.35     \maketitle
                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -824,7 +836,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.29     \maketitle
+l.35     \maketitle
                    
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -834,7 +846,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 35.
 [1
 
 
@@ -843,13 +855,13 @@ LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <14> not available
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 1.
  (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-))
+) [1
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [1
-
-]
+ [2]
 \openout2 = `tex/loi_mo_dau.aux'.
 
 
@@ -924,30 +936,235 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <14.4> not available
 
 
 
-]
-<fig/uc_all.png, id=49, 396.48125pt x 508.90125pt>
+] [10]
+! Undefined control sequence.
+\enit@endenumerate ->\enit@after 
+                                 \endlist \ifx \enit@series \relax \else \if...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@endenumerate ...\else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.73 \end{enumerate}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.73 \end{enumerate}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<argument> enit@resume@series@\enit@series 
+                                           
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.73 \end{enumerate}
+                    
+I'm forgetting what you said and using zero instead.
+
+! Undefined control sequence.
+\enit@endenumerate ...t \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.73 \end{enumerate}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...it@toks }\ifnum \enit@type 
+                                                  =\z@ #3\def \enit@noexcs {...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   =
+l.73 \end{enumerate}
+                    
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
+                                                  \endcsname \the \csname c@...
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\enit@setresumekeys ...e \the \csname c@\@listctr 
+                                                  \endcsname }\fi }
+l.73 \end{enumerate}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\relax' after \the.
+<recently read> \c@ 
+                    
+l.73 \end{enumerate}
+                    
+I'm forgetting what you said and using zero instead.
+
+
+! LaTeX Error: \begin{document} ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \end{enumerate}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.73 \end{enumerate}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+<fig/uc_all.png, id=56, 412.54124pt x 508.90125pt>
 File: fig/uc_all.png Graphic file (type png)
 <use fig/uc_all.png>
-Package pdftex.def Info: fig/uc_all.png  used on input line 49.
-(pdftex.def)             Requested size: 277.53497pt x 356.22844pt.
- [10] [11 <./fig/uc_all.png>]
-<fig/uc_user.png, id=58, 756.8275pt x 375.4025pt>
+Package pdftex.def Info: fig/uc_all.png  used on input line 80.
+(pdftex.def)             Requested size: 288.7769pt x 356.22844pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
+<fig/uc_user.png, id=60, 772.8875pt x 375.4025pt>
 File: fig/uc_user.png Graphic file (type png)
 <use fig/uc_user.png>
-Package pdftex.def Info: fig/uc_user.png  used on input line 56.
-(pdftex.def)             Requested size: 454.1pt x 225.24323pt.
- [12 <./fig/uc_user.png>]
-<fig/uc_admin.png, id=63, 719.68875pt x 637.38126pt>
+Package pdftex.def Info: fig/uc_user.png  used on input line 87.
+(pdftex.def)             Requested size: 448.27505pt x 217.7336pt.
+ [12 <./fig/uc_all.png> <./fig/uc_user.png>]
+<fig/uc_admin.png, id=66, 719.68875pt x 637.38126pt>
 File: fig/uc_admin.png Graphic file (type png)
 <use fig/uc_admin.png>
-Package pdftex.def Info: fig/uc_admin.png  used on input line 63.
+Package pdftex.def Info: fig/uc_admin.png  used on input line 94.
 (pdftex.def)             Requested size: 431.81659pt x 382.4317pt.
 
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
@@ -955,16 +1172,16 @@ So I'll assume that you meant to type \cr instead.
 ! Misplaced \omit.
 \@cline #1-#2\@nil ->\omit 
                            \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
@@ -972,8 +1189,8 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
@@ -981,16 +1198,16 @@ So I'll assume that you meant to type \cr instead.
 ! Misplaced \omit.
 \@cline #1-#2\@nil ->\omit 
                            \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
@@ -998,8 +1215,8 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <template> \endtemplate 
                         
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
@@ -1007,40 +1224,558 @@ So I'll assume that you meant to type \cr instead.
 ! Misplaced \omit.
 \@cline #1-#2\@nil ->\omit 
                            \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.91 \end{tabularx}
-                   
+l.123 \end{tabularx}
+                    
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[13 <./fig/uc_admin.png (PNG copy)>]) [14] (./main.aux (./tex/loi_mo_dau.aux)
-(./tex/chuong_1.aux) (./tex/chuong_2.aux)) ) 
+[13 <./fig/uc_admin.png (PNG copy)>]
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.149 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.149 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.149 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.149 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.149 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.149 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.149 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.149 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.149 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[14]
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.177 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.177 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.177 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.177 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.177 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.177 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.177 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.177 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.177 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[15]
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.202 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.202 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.202 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.202 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.202 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.202 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.202 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.202 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.202 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[16]
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.229 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.229 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.229 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.229 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.229 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.229 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+                        
+l.229 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \omit.
+\@cline #1-#2\@nil ->\omit 
+                           \@multicnt #1\advance \@multispan \m@ne \ifnum \@...
+l.229 \end{tabularx}
+                    
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.229 \end{tabularx}
+                    
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[17] [18]
+<fig/class.png, id=86, 471.7625pt x 508.90125pt>
+File: fig/class.png Graphic file (type png)
+<use fig/class.png>
+Package pdftex.def Info: fig/class.png  used on input line 235.
+(pdftex.def)             Requested size: 330.23149pt x 356.22844pt.
+ [19 <./fig/class.png>]
+<fig/a_login.png, id=91, 619.31375pt x 318.18875pt>
+File: fig/a_login.png Graphic file (type png)
+<use fig/a_login.png>
+Package pdftex.def Info: fig/a_login.png  used on input line 244.
+(pdftex.def)             Requested size: 433.51668pt x 222.73059pt.
+<fig/a_cart.png, id=92, 688.5725pt x 372.39125pt>
+File: fig/a_cart.png Graphic file (type png)
+<use fig/a_cart.png>
+Package pdftex.def Info: fig/a_cart.png  used on input line 250.
+(pdftex.def)             Requested size: 481.99745pt x 260.67209pt.
+
+Overfull \hbox (26.75334pt too wide) in paragraph at lines 250--251
+ [][] 
+ []
+
+<fig/a_order.png, id=93, 309.155pt x 418.56375pt>
+File: fig/a_order.png Graphic file (type png)
+<use fig/a_order.png>
+Package pdftex.def Info: fig/a_order.png  used on input line 256.
+(pdftex.def)             Requested size: 216.40701pt x 292.99261pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig/s_get_product_info.png, id=94, 933.4875pt x 544.0325pt>
+File: fig/s_get_product_info.png Graphic file (type png)
+<use fig/s_get_product_info.png>
+Package pdftex.def Info: fig/s_get_product_info.png  used on input line 264.
+(pdftex.def)             Requested size: 466.74261pt x 272.01558pt.
+
+Overfull \hbox (11.4985pt too wide) in paragraph at lines 264--265
+[][] 
+ []
+
+[20 <./fig/a_login.png (PNG copy)> <./fig/a_cart.png (PNG copy)>]
+<fig/s_update_product_info.png, id=98, 1161.33875pt x 586.19pt>
+File: fig/s_update_product_info.png Graphic file (type png)
+<use fig/s_update_product_info.png>
+Package pdftex.def Info: fig/s_update_product_info.png  used on input line 270.
+
+(pdftex.def)             Requested size: 464.52727pt x 234.47185pt.
+
+Overfull \hbox (9.28316pt too wide) in paragraph at lines 270--271
+[][] 
+ []
+
+[21 <./fig/a_order.png (PNG copy)> <./fig/s_get_product_info.png>]
+<fig/s_add_to_cart.png, id=103, 979.66pt x 541.02126pt>
+File: fig/s_add_to_cart.png Graphic file (type png)
+<use fig/s_add_to_cart.png>
+Package pdftex.def Info: fig/s_add_to_cart.png  used on input line 275.
+(pdftex.def)             Requested size: 440.84293pt x 243.4573pt.
+ [22 <./fig/s_update_product_info.png> <./fig/s_add_to_cart.png>]
+<fig/er.png, id=110, 534.99875pt x 679.53876pt>
+File: fig/er.png Graphic file (type png)
+<use fig/er.png>
+Package pdftex.def Info: fig/er.png  used on input line 283.
+(pdftex.def)             Requested size: 321.00172pt x 407.72641pt.
+ [23 <./fig/er.png>]
+<fig/deploy.png, id=115, 719.68875pt x 182.6825pt>
+File: fig/deploy.png Graphic file (type png)
+<use fig/deploy.png>
+Package pdftex.def Info: fig/deploy.png  used on input line 290.
+(pdftex.def)             Requested size: 431.81659pt x 109.61034pt.
+<fig/p_home.jpg, id=116, 3677.74pt x 2304.61pt>
+File: fig/p_home.jpg Graphic file (type jpg)
+<use fig/p_home.jpg>
+Package pdftex.def Info: fig/p_home.jpg  used on input line 298.
+(pdftex.def)             Requested size: 455.24411pt x 285.2623pt.
+
+[24 <./fig/deploy.png> <./fig/p_home.JPG>]
+<fig/p_cart.jpg, id=121, 3597.44pt x 1521.685pt>
+File: fig/p_cart.jpg Graphic file (type jpg)
+<use fig/p_cart.jpg>
+Package pdftex.def Info: fig/p_cart.jpg  used on input line 305.
+(pdftex.def)             Requested size: 455.24411pt x 192.55528pt.
+<fig/p_dashboard.jpg, id=122, 3155.79pt x 2264.46pt>
+File: fig/p_dashboard.jpg Graphic file (type jpg)
+<use fig/p_dashboard.jpg>
+Package pdftex.def Info: fig/p_dashboard.jpg  used on input line 311.
+(pdftex.def)             Requested size: 455.24411pt x 326.66248pt.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.314 \end{figure}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.314 \end{figure}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.314 \end{figure}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+<fig/r_home.png, id=123, 1339.0025pt x 1027.84pt>
+File: fig/r_home.png Graphic file (type png)
+<use fig/r_home.png>
+Package pdftex.def Info: fig/r_home.png  used on input line 320.
+(pdftex.def)             Requested size: 361.5355pt x 277.52051pt.
+[25 <./fig/p_cart.JPG> <./fig/p_dashboard.JPG>]
+<fig/r_product_details.png, id=127, 1339.0025pt x 734.745pt>
+File: fig/r_product_details.png Graphic file (type png)
+<use fig/r_product_details.png>
+Package pdftex.def Info: fig/r_product_details.png  used on input line 326.
+(pdftex.def)             Requested size: 361.5355pt x 198.38379pt.
+ [26 <./fig/r_home.png> <./fig/r_product_details.png>]
+<fig/r_cart.png, id=133, 1339.0025pt x 699.61375pt>
+File: fig/r_cart.png Graphic file (type png)
+<use fig/r_cart.png>
+Package pdftex.def Info: fig/r_cart.png  used on input line 333.
+(pdftex.def)             Requested size: 455.24411pt x 237.85484pt.
+<fig/r_order.png, id=134, 1351.0475pt x 663.47874pt>
+File: fig/r_order.png Graphic file (type png)
+<use fig/r_order.png>
+Package pdftex.def Info: fig/r_order.png  used on input line 339.
+(pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   �
+l.340 ...dth=\linewidthế trang tạo hóa đơn}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   �
+l.340 ...dth=\linewidthế trang tạo hóa đơn}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[27 <./fig/r_cart.png> <./fig/r_order.png>]
+<fig/r_user1.png, id=140, 1351.0475pt x 663.47874pt>
+File: fig/r_user1.png Graphic file (type png)
+<use fig/r_user1.png>
+Package pdftex.def Info: fig/r_user1.png  used on input line 346.
+(pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
+<fig/r_user2.png, id=141, 1351.0475pt x 663.47874pt>
+File: fig/r_user2.png Graphic file (type png)
+<use fig/r_user2.png>
+Package pdftex.def Info: fig/r_user2.png  used on input line 352.
+(pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
+ [28 <./fig/r_user1.png> <./fig/r_user2.png>]
+<fig/r_manage_product.png, id=148, 1351.0475pt x 663.47874pt>
+File: fig/r_manage_product.png Graphic file (type png)
+<use fig/r_manage_product.png>
+Package pdftex.def Info: fig/r_manage_product.png  used on input line 359.
+(pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
+<fig/r_manage_product_add_product.png, id=149, 1351.0475pt x 663.47874pt>
+File: fig/r_manage_product_add_product.png Graphic file (type png)
+<use fig/r_manage_product_add_product.png>
+Package pdftex.def Info: fig/r_manage_product_add_product.png  used on input li
+ne 365.
+(pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
+ [29 <./fig/r_manage_product.png> <./fig/r_manage_product_add_product.png>]
+<fig/r_manage_product_update_product.png, id=155, 1351.0475pt x 663.47874pt>
+File: fig/r_manage_product_update_product.png Graphic file (type png)
+<use fig/r_manage_product_update_product.png>
+Package pdftex.def Info: fig/r_manage_product_update_product.png  used on input
+ line 372.
+(pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
+) [30 <./fig/r_manage_product_update_product.png>] (./main.aux
+(./tex/loi_mo_dau.aux) (./tex/chuong_1.aux) (./tex/chuong_2.aux)) ) 
 Here is how much of TeX's memory you used:
- 18263 strings out of 492616
- 334731 string characters out of 6135178
- 689585 words of memory out of 5000000
- 21807 multiletter control sequences out of 15000+600000
- 25949 words of font info for 31 fonts, out of 8000000 for 9000
+ 18483 strings out of 492616
+ 338502 string characters out of 6135178
+ 691400 words of memory out of 5000000
+ 21998 multiletter control sequences out of 15000+600000
+ 28258 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,57p,914b,3006s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dv
-ips/vntex/t5.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/ucrb8v.pfb></usr/share/texmf-
-dist/fonts/type1/vntex/urwvn/ucrr8v.pfb></usr/share/texmf-dist/fonts/type1/vnte
-x/urwvn/ucrro8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmb8v.pfb><
-/usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmr8v.pfb>
-Output written on main.pdf (16 pages, 297799 bytes).
+ 55i,13n,57p,910b,3006s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/
+texmf-dist/fonts/enc/dvips/vntex/t5.enc}</usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/ucrb8v
+.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/ucrr8v.pfb></usr/share/texm
+f-dist/fonts/type1/vntex/urwvn/ucrro8v.pfb></usr/share/texmf-dist/fonts/type1/v
+ntex/urwvn/utmb8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmr8v.pfb
+>
+Output written on main.pdf (33 pages, 6786557 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 182 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
