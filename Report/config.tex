@@ -1,7 +1,7 @@
 \titleformat{\chapter}
-    {\bfseries\centering}
-    {CHƯƠNG \Romannum{\thechapter}. \MakeUppercase{#1}}
-    {0.3cm}{}
+{\bfseries\centering}
+{CHƯƠNG \thechapter. \MakeUppercase{#1}}
+{0.3cm}{}
 \titleformat{\section}{\bfseries}{\thesection. #1}{0.3cm}{}
 \titleformat{\subsection}{\bfseries}{\thesubsection. #1}{0.3cm}{}
 \titleformat{\subsubsection}{\bfseries}{\thesubsubsection. #1}{0.3cm}{}
@@ -13,56 +13,64 @@
 \renewcommand{\headrulewidth}{0cm}
 
 \newcommand{\clearHeading}{
-    \clearpage
-    \fancyhead[]{}
-    \cfoot[]{\thepage}
-    \setcounter{page}{1}
+	\clearpage
+	\fancyhead[]{}
+	\cfoot[]{\thepage}
+	\setcounter{page}{1}
 }
+\newenvironment{boxed}
+    {
+    \begin{tabular}{|p{0.9\textwidth}|}
+    \hline
+    }
+    {\\\hline
+    \end{tabular} 
+    }
 \makeatletter
 \renewcommand{\maketitle}{
-    \begin{titlepage}
-        \newgeometry{top=2cm,bottom=2cm,left=2cm,right=2cm}
-        \AddToShipoutPicture*{
-            \AtTextCenter{
-                \makebox(0,0)[c]{
-                    \begin{tikzpicture}
-                        \draw[line width=1pt](0,0)
-                            rectangle(\textwidth+2*0.3cm,\textheight+2*0.3cm);
-                    \end{tikzpicture}
-                }
-            }
-        }
-        \begin{center}
-            
-            {\fontsize{13}{15.6}\selectfont
-                ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG THÁI NGUYÊN\\
-                \textbf{KHOA: CÔNG NGHỆ THÔNG TIN}\\
-                \rule{3cm}{1.pt}
-            }
-            
-            \begin{figure}[h!]
-                \centering
-                \includegraphics[width=100px]{fig/Logo_ICTU.png}
-            \end{figure}
-            
-            {\fontsize{18}{21.6}\selectfont\textbf{BÁO CÁO\\
-                THỰC TẬP CHUYÊN NGÀNH}}
-            
-            \vfill %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-            
-            \textbf{ĐỀ TÀI\\}
-            {\fontsize{18}{21.6}\selectfont\textbf{\MakeUppercase\@title}}
-            
-            \vfill %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-            \begin{tabular} {l l}
-                Sinh viên thực hiện: & \MakeUppercase\@author \\
-                Lớp: & CNTT-K14C \\
-                Giáo viên hướng dẫn: & ThS. NGÔ THỊ LAN
-            \end{tabular}
-            \vfill
+\begin{titlepage}
+\newgeometry{top=2cm,bottom=2cm,left=2cm,right=2cm}
+\AddToShipoutPicture*{
+	\AtTextCenter{
+		\makebox(0,0)[c]{
+			\begin{tikzpicture}
+				\draw[line width=1pt](0,0)
+				rectangle(\textwidth+2*0.3cm,\textheight+2*0.3cm);
+			\end{tikzpicture}
+		}
+	}
+}
+\begin{center}
 
-            {\fontsize{14}\selectfont\textbf{Thái Nguyên - 2019}}
-        \end {center}
-    \end{titlepage}
+{\fontsize{13}{15.6}\selectfont
+	ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG THÁI NGUYÊN\\
+	\textbf{KHOA: CÔNG NGHỆ THÔNG TIN}\\
+	\rule{3cm}{1.pt}
+}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=100px]{fig/Logo_ICTU.png}
+\end{figure}
+
+{\fontsize{18}{21.6}\selectfont\textbf{BÁO CÁO\\
+	THỰC TẬP CHUYÊN NGÀNH}}
+
+\vfill %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{ĐỀ TÀI\\}
+{\fontsize{18}{21.6}\selectfont\textbf{\MakeUppercase\@title}}
+
+\vfill %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tabular} {l l}
+	Sinh viên thực hiện: & \MakeUppercase\@author \\
+	Lớp:                 & CNTT-K14C              \\
+	Giáo viên hướng dẫn: & ThS. NGÔ THỊ LAN
+\end{tabular}
+\vfill
+
+{\fontsize{14}\selectfont\textbf{Thái Nguyên - 2019}}
+\end {center}
+\end{titlepage}
 }
 \makeatother

@@ -7,30 +7,30 @@ Cú pháp và thẻ trong HTML không cần độ chính xác tuyệt đối đ�
 giống như những ngôn ngữ như XML, XHTML thay vào đó những thẻ hay cú pháp khác thường mà trình duyệt không hỗ trợ thì sẽ bị trình duyệt lờ đi và không có tác dụng gì, việc này giúp các trình duyệt phiên bản cũ vẫn có thể xem được nhưng trang HTML phiên bản cao hơn tuy rằng những trình duyệt này sẽ không thể sử dụng được các tính năng mới được cung cấp (Đảm bảo tính tương thích ngược).\par
 Hiện nay HTML đang muốn hướng lập trình viên tạo ra những trang web mới sử dụng các thẻ semantic (ngữ nghĩa) thay cho việc dùng <div> hay <span>vì hai thẻ này không diễn tả được nhiều về các thành phần của một trang web, một số thẻ ngữ nghĩa thường dùng là:
 \begin{center}
-\begin{tabular}{|l|l|}
-    \cline{1-2}
-    \textbf{Thẻ} & \textbf{Chức năng} \\ \cline{1-2}
-    <article> & Liệt kê các bài viết \\ \cline{1-2}
-    <aside> & Phần nội dung bên lề \\ \cline{1-2}
-    <figure> & Chứa các hình ảnh, biểu đồ, .... \\ \cline{1-2}
-    <figcaption> & Chứa phần mô tả hình ảnh cho thẻ <figure> \\ \cline{1-2}
-    <header> & Phần đầu trang web \\ \cline{1-2}
-    <footer> & Phần chân trang \\ \cline{1-2}
-    <main> & Phần nội dung chính của tài liệu \\ \cline{1-2}
-    <mark> & Phần văn bản được đánh dấu, làm nổi bật \\ \cline{1-2}
-    <nav> & Phần thanh định hướng \\ \cline{1-2}
-    <section> & Định nghĩa các phân đoạn trong trang web \\ \cline{1-2}
-    <details> & Chứa nội dung chi tiết, người dùng có thể xem hay ẩn đi \\ \cline{1-2}
-    <summary> & Nêu tóm lược nội dung, kết hợp với thẻ <details> \\ \cline{1-2}
-    <time> & Thời gian, có thể là thời gian đăng bài, thời gian chỉnh sửa, ... \\ \cline{1-2}
-    <video> & Nhúng nội dung video vào trang web \\ \cline{1-2}
-\end{tabular}
+	\begin{tabular}{|l|l|}
+		\cline{1-2}
+		\textbf{Thẻ} & \textbf{Chức năng}                                                \\ \cline{1-2}
+		<article>    & Liệt kê các bài viết                                              \\ \cline{1-2}
+		<aside>      & Phần nội dung bên lề                                              \\ \cline{1-2}
+		<figure>     & Chứa các hình ảnh, biểu đồ, ....                                  \\ \cline{1-2}
+		<figcaption> & Chứa phần mô tả hình ảnh cho thẻ <figure>                         \\ \cline{1-2}
+		<header>     & Phần đầu trang web                                                \\ \cline{1-2}
+		<footer>     & Phần chân trang                                                   \\ \cline{1-2}
+		<main>       & Phần nội dung chính của tài liệu                                  \\ \cline{1-2}
+		<mark>       & Phần văn bản được đánh dấu, làm nổi bật                           \\ \cline{1-2}
+		<nav>        & Phần thanh định hướng                                             \\ \cline{1-2}
+		<section>    & Định nghĩa các phân đoạn trong trang web                          \\ \cline{1-2}
+		<details>    & Chứa nội dung chi tiết, người dùng có thể xem hay ẩn đi           \\ \cline{1-2}
+		<summary>    & Nêu tóm lược nội dung, kết hợp với thẻ <details>                  \\ \cline{1-2}
+		<time>       & Thời gian, có thể là thời gian đăng bài, thời gian chỉnh sửa, ... \\ \cline{1-2}
+		<video>      & Nhúng nội dung video vào trang web                                \\ \cline{1-2}
+	\end{tabular}
 \end{center}
 
 Một file HTML thường có phần mở rộng là \textbf{*.html} và có cấu trúc như sau:
 \lstset{language=Html}
 \begin{center}
-\begin{lstlisting}[frame=single]
+	\begin{lstlisting}[frame=single]
  <html>
  <head>
     <title>Html example</title>
@@ -48,13 +48,13 @@ CSS là ngôn ngữ dùng để bổ sung các thuộc tính hiển thị cho tr
 Hiện tại phiên bản mới nhất của CSS là CSS 3 với rất nhiều thuộc tính mới giúp việc căn chỉnh các thành phần của trang web dễ dàng hơn, một số tính năng đáng nói có thể kể đến như:
 
 \begin{table}[h!]
-\centering
-\begin{tabular}{|l|l|}
-    \cline{1-2}
-    \textbf{Thuộc tính} & \textbf{Chức năng}\\ \cline{1-2} 
-    flexbox & Căn chỉnh vị trí phần tử theo một chiều cố định (ngang hoặc dọc)\\ \cline{1-2}
-    Gird layout & Căn chỉnh vị trí của phần tử theo cả chiều ngang lẫn chiều dọc\\ \cline{1-2}
-\end{tabular}
+	\centering
+	\begin{tabular}{|l|l|}
+		\cline{1-2}
+		\textbf{Thuộc tính} & \textbf{Chức năng}                                               \\ \cline{1-2}
+		flexbox             & Căn chỉnh vị trí phần tử theo một chiều cố định (ngang hoặc dọc) \\ \cline{1-2}
+		Gird layout         & Căn chỉnh vị trí của phần tử theo cả chiều ngang lẫn chiều dọc   \\ \cline{1-2}
+	\end{tabular}
 \end{table}
 
 Hiện tại cả hai thuộc tính này đều đã được tích hợp trong Bootstrap 4 một framework css rất nổi tiếng và được nhiều lập trình viên sử dụng.
@@ -81,8 +81,8 @@ Và những dòng sau và trước thẻ đóng </body>
 File html sau khi cài đặt Bootstrap sẽ nhìn như sau
 
 \begin{center}
-\vspace{-2em}
-\begin{lstlisting}[frame=single]
+	\vspace{-2em}
+	\begin{lstlisting}[frame=single]
  <html>
  <head>
     <title>Html example</title>
@@ -97,7 +97,7 @@ File html sau khi cài đặt Bootstrap sẽ nhìn như sau
  </body>
  </html>
 \end{lstlisting}
-\vspace{-1.5em}
+	\vspace{-1.5em}
 \end{center}
 
 Việc thêm thư viện javascript vào trước đóng thẻ </body> giúp trình duyệt tải và hiển thị html cũng như css trước sau đó mới tải đến Javascript, việc này giúp tránh hiện tượng trang web trắng xóa, không hiển thị nội dung gì khi trình duyệt cố tải những thư viện Javascript.\par
@@ -112,8 +112,8 @@ Các file php có phần mở rộng là \textbf{*.php}, tuy nhiểu để trìn
 Ngôn ngữ Php được viết dựa vào ngôn ngữ C nên phong cách code mang nhiều hơi hướng C như việc phải dùng dấu \textbf{;} khi kết thúc mỗi dòng code, phân biệt chữ hoa chữ thường, cũng như là một ngôn ngữ hướng chức năng (Tới phiên bản thứ 5 mới hỗ trợ việc lập trình hướng đối tượng)
 \lstset{language=Php}
 \begin{center}
-\vspace{-2em}
-\begin{lstlisting}[frame=single]
+	\vspace{-2em}
+	\begin{lstlisting}[frame=single]
 <?php
     function helloWord()
     {
@@ -126,21 +126,21 @@ Ngôn ngữ Php được viết dựa vào ngôn ngữ C nên phong cách code m
 \subsection{Giới thiệu về MySQL}
 MySQL là một hệ cơ sở dữ liệu quan hệ, trong hệ cơ sở dữ liệu quan hệ dữ liệu được biểu dưới dạng các bảng có liên kết với nhau dựa vào khóa chính hay các khóa phụ. Hiện nay có rất nhiều hệ cơ sở dữ liệu quan hệ như: Oracle, Portgre, mariadb (một bản folk của MySQL),... Tuy nhiên lý do MySQL được chọn là vì:
 \begin{enumerate}
-\vspace{-1em}
-\itemsep0em
-\item Quy mô cửa hàng không quá lớn, lượng truy vấn dữ liệu không nhiều
-\item Được tích hợp sẵn trong Xampp cũng như phần lớn các shared host hiện nay
-\item Miễn phí sử dụng
+	\vspace{-1em}
+	\itemsep0em
+	\item Quy mô cửa hàng không quá lớn, lượng truy vấn dữ liệu không nhiều
+	\item Được tích hợp sẵn trong Xampp cũng như phần lớn các shared host hiện nay
+	\item Miễn phí sử dụng
 \end{enumerate}
 \subsection{Cú pháp cơ bản}
 \begin{center}
 
-\begin{tabularx}{\linewidth}{|l|X|}
- \cline{1-2}
- \textbf{Công việc cần làm} & \textbf{câu lệnh} \\ \cline{1-2}
- Lấy thông tin từ bảng & SELECT * FROM tên\_bảng WHERE điều\_kiện \\ \cline{1-2}
- Nhập thông tin vào bảng & INSERT INTO Tên\_bảng (tên\_cột\_1, tên\_cột\_2, tên\_cột\_3,...) VALUES (giá\_trị\_cột\_1, giá\_trị\_cột\_2, giá\_trị\_cột\_3,...)\\ \cline{1-2}
- Xóa thông tin khỏi bảng & DELETE FROM Tên\_bảng WHERE Điều\_kiện\\ \cline{1-2}
- Cập nhật thông tin bảng & UPDATE Tên\_bảng SET cột\_1 = giá\_trị\_mới, cột\_2 = giá\_trị\_mới, cột\_n = giá\_trị\_mới WHERE điều\_kiện\\ \cline{1-2}
-\end{tabularx}
+	\begin{tabularx}{\linewidth}{|l|X|}
+		\cline{1-2}
+		\textbf{Công việc cần làm} & \textbf{câu lệnh}                                                                                                                   \\ \cline{1-2}
+		Lấy thông tin từ bảng      & SELECT * FROM tên\_bảng WHERE điều\_kiện                                                                                            \\ \cline{1-2}
+		Nhập thông tin vào bảng    & INSERT INTO Tên\_bảng (tên\_cột\_1, tên\_cột\_2, tên\_cột\_3,...) VALUES (giá\_trị\_cột\_1, giá\_trị\_cột\_2, giá\_trị\_cột\_3,...) \\ \cline{1-2}
+		Xóa thông tin khỏi bảng    & DELETE FROM Tên\_bảng WHERE Điều\_kiện                                                                                              \\ \cline{1-2}
+		Cập nhật thông tin bảng    & UPDATE Tên\_bảng SET cột\_1 = giá\_trị\_mới, cột\_2 = giá\_trị\_mới, cột\_n = giá\_trị\_mới WHERE điều\_kiện                        \\ \cline{1-2}
+	\end{tabularx}
 \end{center}
