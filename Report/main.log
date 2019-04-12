@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.5)  10 APR 2019 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.5)  12 APR 2019 02:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,6 +879,11 @@ Overfull \hbox (5.12347pt too wide) in paragraph at lines 8--9
 iv> hay <span>v¼
  []
 
+
+Overfull \hbox (11.15703pt too wide) in paragraph at lines 10--28
+ [] 
+ []
+
 [2
 
 
@@ -918,7 +923,7 @@ LaTeX Font Info:    Font shape `T5/pcr/m/it' in size <14.4> not available
 (Font)              Font shape `T5/pcr/m/sl' tried instead on input line 122.
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\T5/ptm/m/n/14.4 t¶n_cët_3,...) VALUES (gi¡_trà_cët_1,
+\T5/ptm/m/n/14.4 t¶n_cët_3,dots) VALUES (gi¡_trà_cët_1,
  []
 
 [7]) [8]
@@ -936,439 +941,240 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <14.4> not available
 
 
 
-] [10]
-! Undefined control sequence.
-\enit@endenumerate ->\enit@after 
-                                 \endlist \ifx \enit@series \relax \else \if...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@endenumerate ...\else \ifnum \enit@resuming 
-                                                  =\@ne \enit@setresumekeys ...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.73 \end{enumerate}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.73 \end{enumerate}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<argument> enit@resume@series@\enit@series 
-                                           
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.73 \end{enumerate}
-                    
-I'm forgetting what you said and using zero instead.
-
-! Undefined control sequence.
-\enit@endenumerate ...t \fi \ifnum \enit@resuming 
-                                                  =\thr@@ \enit@setresumekey...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.73 \end{enumerate}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...xpandafter {\enit@savekeys 
-                                                  }\xdef \enit@afterlist {#2...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...it@toks }\ifnum \enit@type 
-                                                  =\z@ #3\def \enit@noexcs {...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   =
-l.73 \end{enumerate}
-                    
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\enit@setresumekeys ...me@#1}{\csname c@\@listctr 
-                                                  \endcsname \the \csname c@...
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\enit@setresumekeys ...e \the \csname c@\@listctr 
-                                                  \endcsname }\fi }
-l.73 \end{enumerate}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `\relax' after \the.
-<recently read> \c@ 
-                    
-l.73 \end{enumerate}
-                    
-I'm forgetting what you said and using zero instead.
-
-
-! LaTeX Error: \begin{document} ended by \end{enumerate}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \end{enumerate}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.73 \end{enumerate}
-                    
-Things are pretty mixed up, but I think the worst is over.
-
-<fig/uc_all.png, id=56, 412.54124pt x 508.90125pt>
+] [10] [11]
+<fig/uc_all.png, id=59, 381.425pt x 646.415pt>
 File: fig/uc_all.png Graphic file (type png)
 <use fig/uc_all.png>
 Package pdftex.def Info: fig/uc_all.png  used on input line 80.
-(pdftex.def)             Requested size: 288.7769pt x 356.22844pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11]
-<fig/uc_user.png, id=60, 772.8875pt x 375.4025pt>
+(pdftex.def)             Requested size: 266.99567pt x 452.48741pt.
+ [12 <./fig/uc_all.png>]
+<fig/uc_user.png, id=64, 740.7675pt x 670.505pt>
 File: fig/uc_user.png Graphic file (type png)
 <use fig/uc_user.png>
 Package pdftex.def Info: fig/uc_user.png  used on input line 87.
-(pdftex.def)             Requested size: 448.27505pt x 217.7336pt.
- [12 <./fig/uc_all.png> <./fig/uc_user.png>]
-<fig/uc_admin.png, id=66, 719.68875pt x 637.38126pt>
+(pdftex.def)             Requested size: 429.64545pt x 388.89317pt.
+ [13 <./fig/uc_user.png>]
+<fig/uc_admin.png, id=69, 719.68875pt x 724.7075pt>
 File: fig/uc_admin.png Graphic file (type png)
 <use fig/uc_admin.png>
 Package pdftex.def Info: fig/uc_admin.png  used on input line 94.
-(pdftex.def)             Requested size: 431.81659pt x 382.4317pt.
- [13 <./fig/uc_admin.png (PNG copy)>] [14] [15] [16] [17] [18]
-<fig/a_login.png, id=86, 619.31375pt x 318.18875pt>
+(pdftex.def)             Requested size: 431.81659pt x 434.82785pt.
+ [14 <./fig/uc_admin.png (PNG copy)>]
+[15] [16] [17] [18] [19]
+<fig/class_dangky.png, id=89, 455.7025pt x 302.12875pt>
+File: fig/class_dangky.png Graphic file (type png)
+<use fig/class_dangky.png>
+Package pdftex.def Info: fig/class_dangky.png  used on input line 217.
+(pdftex.def)             Requested size: 318.98956pt x 211.48868pt.
+<fig/class_dangnhap.png, id=90, 455.7025pt x 302.12875pt>
+File: fig/class_dangnhap.png Graphic file (type png)
+<use fig/class_dangnhap.png>
+Package pdftex.def Info: fig/class_dangnhap.png  used on input line 223.
+(pdftex.def)             Requested size: 318.98956pt x 211.48868pt.
+ [20 <./fig/class_dangky.png> <./fig/class_dangnhap.png>]
+<fig/class_update_info.png, id=96, 588.1975pt x 302.12875pt>
+File: fig/class_update_info.png Graphic file (type png)
+<use fig/class_update_info.png>
+Package pdftex.def Info: fig/class_update_info.png  used on input line 230.
+(pdftex.def)             Requested size: 411.73544pt x 211.48868pt.
+<fig/class_timkiem.png, id=97, 401.5pt x 410.53375pt>
+File: fig/class_timkiem.png Graphic file (type png)
+<use fig/class_timkiem.png>
+Package pdftex.def Info: fig/class_timkiem.png  used on input line 236.
+(pdftex.def)             Requested size: 281.04808pt x 287.37166pt.
+ [21 <./fig/class_update_info.png> <./fig/class_timkiem.png>]
+<fig/class_muahang.png, id=103, 430.60875pt x 315.1775pt>
+File: fig/class_muahang.png Graphic file (type png)
+<use fig/class_muahang.png>
+Package pdftex.def Info: fig/class_muahang.png  used on input line 243.
+(pdftex.def)             Requested size: 301.42406pt x 220.62274pt.
+<fig/class_qldonhang.png, id=104, 561.09625pt x 315.1775pt>
+File: fig/class_qldonhang.png Graphic file (type png)
+<use fig/class_qldonhang.png>
+Package pdftex.def Info: fig/class_qldonhang.png  used on input line 249.
+(pdftex.def)             Requested size: 392.7647pt x 220.62274pt.
+ [22 <./fig/class_muahang.png> <./fig/class_qldonhang.png>]
+<fig/class_quanlysanpham.png, id=111, 543.02875pt x 393.47pt>
+File: fig/class_quanlysanpham.png Graphic file (type png)
+<use fig/class_quanlysanpham.png>
+Package pdftex.def Info: fig/class_quanlysanpham.png  used on input line 256.
+(pdftex.def)             Requested size: 380.11752pt x 275.42711pt.
+<fig/class_thongke.png, id=112, 530.98375pt x 315.1775pt>
+File: fig/class_thongke.png Graphic file (type png)
+<use fig/class_thongke.png>
+Package pdftex.def Info: fig/class_thongke.png  used on input line 262.
+(pdftex.def)             Requested size: 371.68608pt x 220.62274pt.
+ [23 <./fig/class_quanlysanpham.png> <./fig/class_thongke.png>]
+<fig/a_login.png, id=118, 619.31375pt x 318.18875pt>
 File: fig/a_login.png Graphic file (type png)
 <use fig/a_login.png>
-Package pdftex.def Info: fig/a_login.png  used on input line 217.
+Package pdftex.def Info: fig/a_login.png  used on input line 272.
 (pdftex.def)             Requested size: 433.51668pt x 222.73059pt.
-<fig/a_cart.png, id=87, 688.5725pt x 372.39125pt>
+<fig/a_cart.png, id=119, 688.5725pt x 372.39125pt>
 File: fig/a_cart.png Graphic file (type png)
 <use fig/a_cart.png>
-Package pdftex.def Info: fig/a_cart.png  used on input line 223.
+Package pdftex.def Info: fig/a_cart.png  used on input line 278.
 (pdftex.def)             Requested size: 481.99745pt x 260.67209pt.
 
-Overfull \hbox (26.75334pt too wide) in paragraph at lines 223--224
+Overfull \hbox (26.75334pt too wide) in paragraph at lines 278--279
  [][] 
  []
 
-<fig/a_order.png, id=88, 309.155pt x 418.56375pt>
+[24 <./fig/a_login.png (PNG copy)> <./fig/a_cart.png (PNG copy)>]
+<fig/a_order.png, id=123, 309.155pt x 418.56375pt>
 File: fig/a_order.png Graphic file (type png)
 <use fig/a_order.png>
-Package pdftex.def Info: fig/a_order.png  used on input line 229.
+Package pdftex.def Info: fig/a_order.png  used on input line 285.
 (pdftex.def)             Requested size: 216.40701pt x 292.99261pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<fig/s_get_product_info.png, id=89, 933.4875pt x 544.0325pt>
+ [25 <./fig/a_order.png (PNG copy)>]
+<fig/s_get_product_info.png, id=127, 933.4875pt x 544.0325pt>
 File: fig/s_get_product_info.png Graphic file (type png)
 <use fig/s_get_product_info.png>
-Package pdftex.def Info: fig/s_get_product_info.png  used on input line 237.
+Package pdftex.def Info: fig/s_get_product_info.png  used on input line 294.
 (pdftex.def)             Requested size: 466.74261pt x 272.01558pt.
 
-Overfull \hbox (11.4985pt too wide) in paragraph at lines 237--238
+Overfull \hbox (11.4985pt too wide) in paragraph at lines 294--295
 [][] 
  []
 
-[19 <./fig/a_login.png (PNG copy)> <./fig/a_cart.png (PNG copy)>]
-<fig/s_update_product_info.png, id=93, 1161.33875pt x 586.19pt>
+<fig/s_update_product_info.png, id=128, 1161.33875pt x 586.19pt>
 File: fig/s_update_product_info.png Graphic file (type png)
 <use fig/s_update_product_info.png>
-Package pdftex.def Info: fig/s_update_product_info.png  used on input line 243.
+Package pdftex.def Info: fig/s_update_product_info.png  used on input line 300.
 
 (pdftex.def)             Requested size: 464.52727pt x 234.47185pt.
 
-Overfull \hbox (9.28316pt too wide) in paragraph at lines 243--244
+Overfull \hbox (9.28316pt too wide) in paragraph at lines 300--301
 [][] 
  []
 
-[20 <./fig/a_order.png (PNG copy)> <./fig/s_get_product_info.png>]
-<fig/s_add_to_cart.png, id=98, 979.66pt x 541.02126pt>
+<fig/s_add_to_cart.png, id=129, 979.66pt x 541.02126pt>
 File: fig/s_add_to_cart.png Graphic file (type png)
 <use fig/s_add_to_cart.png>
-Package pdftex.def Info: fig/s_add_to_cart.png  used on input line 248.
+Package pdftex.def Info: fig/s_add_to_cart.png  used on input line 305.
 (pdftex.def)             Requested size: 440.84293pt x 243.4573pt.
- [21 <./fig/s_update_product_info.png> <./fig/s_add_to_cart.png>]
-<fig/er.png, id=104, 534.99875pt x 679.53876pt>
+[26 <./fig/s_get_product_info.png> <./fig/s_update_product_info.png>] [27 <./fi
+g/s_add_to_cart.png>]
+<fig/er.png, id=139, 534.99875pt x 679.53876pt>
 File: fig/er.png Graphic file (type png)
 <use fig/er.png>
-Package pdftex.def Info: fig/er.png  used on input line 256.
+Package pdftex.def Info: fig/er.png  used on input line 313.
 (pdftex.def)             Requested size: 321.00172pt x 407.72641pt.
- [22 <./fig/er.png>]
-<fig/deploy.png, id=110, 719.68875pt x 182.6825pt>
+<fig/deploy.png, id=140, 719.68875pt x 182.6825pt>
 File: fig/deploy.png Graphic file (type png)
 <use fig/deploy.png>
-Package pdftex.def Info: fig/deploy.png  used on input line 263.
+Package pdftex.def Info: fig/deploy.png  used on input line 319.
 (pdftex.def)             Requested size: 431.81659pt x 109.61034pt.
-<fig/p_home.jpg, id=111, 3677.74pt x 2304.61pt>
+ [28 <./fig/er.png> <./fig/deploy.png>]
+<fig/p_home.jpg, id=147, 3677.74pt x 2304.61pt>
 File: fig/p_home.jpg Graphic file (type jpg)
 <use fig/p_home.jpg>
-Package pdftex.def Info: fig/p_home.jpg  used on input line 271.
+Package pdftex.def Info: fig/p_home.jpg  used on input line 328.
 (pdftex.def)             Requested size: 455.24411pt x 285.2623pt.
-
-[23 <./fig/deploy.png> <./fig/p_home.JPG>]
-<fig/p_cart.jpg, id=116, 3597.44pt x 1521.685pt>
+<fig/p_cart.jpg, id=148, 3597.44pt x 1521.685pt>
 File: fig/p_cart.jpg Graphic file (type jpg)
 <use fig/p_cart.jpg>
-Package pdftex.def Info: fig/p_cart.jpg  used on input line 278.
+Package pdftex.def Info: fig/p_cart.jpg  used on input line 334.
 (pdftex.def)             Requested size: 455.24411pt x 192.55528pt.
-<fig/p_dashboard.jpg, id=117, 3155.79pt x 2264.46pt>
+ [29 <./fig/p_home.JPG> <./fig/p_cart.JPG>]
+<fig/p_dashboard.jpg, id=152, 3155.79pt x 2264.46pt>
 File: fig/p_dashboard.jpg Graphic file (type jpg)
 <use fig/p_dashboard.jpg>
-Package pdftex.def Info: fig/p_dashboard.jpg  used on input line 284.
+Package pdftex.def Info: fig/p_dashboard.jpg  used on input line 341.
 (pdftex.def)             Requested size: 455.24411pt x 326.66248pt.
-) [24 <./fig/p_cart.JPG> <./fig/p_dashboard.JPG>]
+) [30 <./fig/p_dashboard.JPG>]
 \openout2 = `tex/chuong_3.aux'.
 
  (./tex/chuong_3.tex
 Ch\uhorn \ohorn ng 3.
-<fig/r_home.png, id=121, 1339.0025pt x 1027.84pt>
+<fig/r_home.png, id=156, 1339.0025pt x 1027.84pt>
 File: fig/r_home.png Graphic file (type png)
 <use fig/r_home.png>
-Package pdftex.def Info: fig/r_home.png  used on input line 7.
+Package pdftex.def Info: fig/r_home.png  used on input line 6.
 (pdftex.def)             Requested size: 361.5355pt x 277.52051pt.
-<fig/r_product_details.png, id=122, 1339.0025pt x 734.745pt>
+<fig/r_product_details.png, id=157, 1339.0025pt x 734.745pt>
 File: fig/r_product_details.png Graphic file (type png)
 <use fig/r_product_details.png>
-Package pdftex.def Info: fig/r_product_details.png  used on input line 13.
+Package pdftex.def Info: fig/r_product_details.png  used on input line 11.
 (pdftex.def)             Requested size: 361.5355pt x 198.38379pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[25
+[31
 
 
 
- <./fig/r_home.png>]
-<fig/r_cart.png, id=127, 1339.0025pt x 699.61375pt>
+ <./fig/r_home.png> <./fig/r_product_details.png>]
+<fig/r_cart.png, id=163, 1339.0025pt x 699.61375pt>
 File: fig/r_cart.png Graphic file (type png)
 <use fig/r_cart.png>
-Package pdftex.def Info: fig/r_cart.png  used on input line 20.
+Package pdftex.def Info: fig/r_cart.png  used on input line 17.
 (pdftex.def)             Requested size: 455.24411pt x 237.85484pt.
-<fig/r_make_order.png, id=128, 1345.025pt x 655.44875pt>
+<fig/r_make_order.png, id=164, 1345.025pt x 655.44875pt>
 File: fig/r_make_order.png Graphic file (type png)
 <use fig/r_make_order.png>
-Package pdftex.def Info: fig/r_make_order.png  used on input line 26.
+Package pdftex.def Info: fig/r_make_order.png  used on input line 22.
 (pdftex.def)             Requested size: 455.24411pt x 221.84949pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26 <./fig/r_product_details.png> <./fig/r_cart.png>]
-<fig/r_user1.png, id=134, 1351.0475pt x 663.47874pt>
+ [32 <./fig/r_cart.png> <./fig/r_make_order.png>]
+<fig/r_user1.png, id=170, 1351.0475pt x 663.47874pt>
 File: fig/r_user1.png Graphic file (type png)
 <use fig/r_user1.png>
-Package pdftex.def Info: fig/r_user1.png  used on input line 33.
+Package pdftex.def Info: fig/r_user1.png  used on input line 28.
 (pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
-<fig/r_user2.png, id=135, 1351.0475pt x 663.47874pt>
+<fig/r_user2.png, id=171, 1351.0475pt x 663.47874pt>
 File: fig/r_user2.png Graphic file (type png)
 <use fig/r_user2.png>
-Package pdftex.def Info: fig/r_user2.png  used on input line 39.
+Package pdftex.def Info: fig/r_user2.png  used on input line 33.
 (pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[27 <./fig/r_make_order.png> <./fig/r_user1.png>]
-<fig/r_manage_statistics.png, id=141, 1357.07pt x 641.39626pt>
+ [33 <./fig/r_user1.png> <./fig/r_user2.png>]
+<fig/r_manage_statistics.png, id=177, 1357.07pt x 641.39626pt>
 File: fig/r_manage_statistics.png Graphic file (type png)
 <use fig/r_manage_statistics.png>
-Package pdftex.def Info: fig/r_manage_statistics.png  used on input line 46.
+Package pdftex.def Info: fig/r_manage_statistics.png  used on input line 39.
 (pdftex.def)             Requested size: 455.24411pt x 215.15533pt.
-<fig/r_manage_product.png, id=142, 1357.07pt x 641.39626pt>
+<fig/r_manage_product.png, id=178, 1357.07pt x 641.39626pt>
 File: fig/r_manage_product.png Graphic file (type png)
 <use fig/r_manage_product.png>
-Package pdftex.def Info: fig/r_manage_product.png  used on input line 52.
+Package pdftex.def Info: fig/r_manage_product.png  used on input line 44.
 (pdftex.def)             Requested size: 455.24411pt x 215.15533pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28 <./fig/r_user2.png> <./fig/r_manage_statistics.png>]
-<fig/r_manage_product_add_product.png, id=149, 1345.025pt x 643.40375pt>
+ [34 <./fig/r_manage_statistics.png> <./fig/r_manage_product.png>]
+<fig/r_manage_product_add_product.png, id=185, 1345.025pt x 643.40375pt>
 File: fig/r_manage_product_add_product.png Graphic file (type png)
 <use fig/r_manage_product_add_product.png>
 Package pdftex.def Info: fig/r_manage_product_add_product.png  used on input li
-ne 59.
+ne 50.
 (pdftex.def)             Requested size: 455.24411pt x 217.77263pt.
-<fig/r_manage_product_update_product.png, id=150, 1345.025pt x 643.40375pt>
+<fig/r_manage_product_update_product.png, id=186, 1345.025pt x 643.40375pt>
 File: fig/r_manage_product_update_product.png Graphic file (type png)
 <use fig/r_manage_product_update_product.png>
 Package pdftex.def Info: fig/r_manage_product_update_product.png  used on input
- line 65.
+ line 55.
 (pdftex.def)             Requested size: 455.24411pt x 217.77263pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[29 <./fig/r_manage_product.png> <./fig/r_manage_product_add_product.png>]
-<fig/r_order.png, id=156, 1345.025pt x 724.7075pt>
+ [35 <./fig/r_manage_product_add_product.png> <./fig/r_manage_product_update_pr
+oduct.png>]
+<fig/r_order.png, id=192, 1345.025pt x 724.7075pt>
 File: fig/r_order.png Graphic file (type png)
 <use fig/r_order.png>
-Package pdftex.def Info: fig/r_order.png  used on input line 72.
+Package pdftex.def Info: fig/r_order.png  used on input line 61.
 (pdftex.def)             Requested size: 455.24411pt x 245.29147pt.
-
-[30 <./fig/r_manage_product_update_product.png> <./fig/r_order.png>])
-
-! LaTeX Error: \begin{enumerate} on input line 267 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(./main.aux (./tex/loi_mo_dau.aux) (./tex/chuong_1.aux) (./tex/chuong_2.aux)
-(./tex/chuong_3.aux)) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 267 (\begingroup)
-### bottom level 
+ [36 <./fig/r_order.png>]) (./main.aux (./tex/loi_mo_dau.aux) (./tex/chuong_1.a
+ux)
+(./tex/chuong_2.aux) (./tex/chuong_3.aux)) ) 
 Here is how much of TeX's memory you used:
- 18498 strings out of 492616
- 338825 string characters out of 6135178
- 691738 words of memory out of 5000000
- 22005 multiletter control sequences out of 15000+600000
+ 18535 strings out of 492616
+ 339795 string characters out of 6135178
+ 691737 words of memory out of 5000000
+ 22034 multiletter control sequences out of 15000+600000
  28258 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,57p,906b,3006s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/vntex/t5.enc}</usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fo
-nts/type1/vntex/urwvn/ucrb8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn
-/ucrr8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/ucrro8v.pfb></usr/sh
-are/texmf-dist/fonts/type1/vntex/urwvn/utmb8v.pfb></usr/share/texmf-dist/fonts/
-type1/vntex/urwvn/utmr8v.pfb>
-Output written on main.pdf (33 pages, 6864040 bytes).
+{/usr/share/texmf-dist/fonts/enc/dv
+ips/vntex/t5.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/ucrb8v.pfb></usr/share/texmf-
+dist/fonts/type1/vntex/urwvn/ucrr8v.pfb></usr/share/texmf-dist/fonts/type1/vnte
+x/urwvn/ucrro8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmb8v.pfb><
+/usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmr8v.pfb>
+Output written on main.pdf (39 pages, 7067656 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 222 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

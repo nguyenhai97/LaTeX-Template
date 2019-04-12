@@ -17,13 +17,14 @@
 \contentsline {subsection}{\numberline {2.1.1}S\IeC {\ohorn } l\IeC {\uhorn }\IeC {\d \ohorn }c v\IeC {\`\ecircumflex } c\IeC {\h \uhorn }a h\IeC {\`a}ng}{9}% 
 \contentsline {subsection}{\numberline {2.1.2}Th\IeC {\d \uhorn }c tr\IeC {\d a}ng c\IeC {\h \uhorn }a h\IeC {\`a}ng}{9}% 
 \contentsline {subsection}{\numberline {2.1.3}Kh\IeC {\h a}o s\IeC {\'a}t quy tr\IeC {\`\i }nh}{11}% 
-\contentsline {section}{\numberline {2.2}Ph\IeC {\^a}n t\IeC {\'\i }ch v\IeC {\`a} thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng}{11}% 
-\contentsline {subsection}{\numberline {2.2.1}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } Usecase}{11}% 
-\contentsline {subsection}{\numberline {2.2.2}K\IeC {\d i}ch b\IeC {\h a}n cho m\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } use case ch\IeC {\'\i }nh}{14}% 
-\contentsline {subsection}{\numberline {2.2.3}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } ho\IeC {\d a}t \IeC {\dj }\IeC {\d \ocircumflex }ng}{19}% 
-\contentsline {subsection}{\numberline {2.2.4}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } tu\IeC {\`\acircumflex }n t\IeC {\d \uhorn } cho m\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } ch\IeC {\'\uhorn }c n\IeC {\u a}ng ch\IeC {\'\i }nh}{20}% 
-\contentsline {subsection}{\numberline {2.2.5}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } quan h\IeC {\d \ecircumflex } th\IeC {\d \uhorn }c th\IeC {\h \ecircumflex }}{22}% 
-\contentsline {subsection}{\numberline {2.2.6}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } tri\IeC {\h \ecircumflex }n khai}{23}% 
-\contentsline {section}{\numberline {2.3}M\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } nguy\IeC {\^e}n m\IeC {\~\acircumflex }u thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } trang web}{23}% 
-\contentsline {chapter}{\numberline {3}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t ch\IeC {\uhorn }\IeC {\ohorn }ng tr\IeC {\`\i }nh}{25}% 
-\contentsline {section}{\numberline {3.1}H\IeC {\`\i }nh \IeC {\h a}nh th\IeC {\d \uhorn }c t\IeC {\'\ecircumflex }}{25}% 
+\contentsline {section}{\numberline {2.2}Ph\IeC {\^a}n t\IeC {\'\i }ch v\IeC {\`a} thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng}{12}% 
+\contentsline {subsection}{\numberline {2.2.1}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } Usecase}{12}% 
+\contentsline {subsection}{\numberline {2.2.2}K\IeC {\d i}ch b\IeC {\h a}n cho m\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } use case ch\IeC {\'\i }nh}{15}% 
+\contentsline {subsection}{\numberline {2.2.3}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } l\IeC {\'\ohorn }p}{20}% 
+\contentsline {subsection}{\numberline {2.2.4}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } ho\IeC {\d a}t \IeC {\dj }\IeC {\d \ocircumflex }ng}{24}% 
+\contentsline {subsection}{\numberline {2.2.5}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } tu\IeC {\`\acircumflex }n t\IeC {\d \uhorn } cho m\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } ch\IeC {\'\uhorn }c n\IeC {\u a}ng ch\IeC {\'\i }nh}{26}% 
+\contentsline {subsection}{\numberline {2.2.6}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } quan h\IeC {\d \ecircumflex } th\IeC {\d \uhorn }c th\IeC {\h \ecircumflex }}{28}% 
+\contentsline {subsection}{\numberline {2.2.7}Bi\IeC {\h \ecircumflex }u \IeC {\dj }\IeC {\`\ocircumflex } tri\IeC {\h \ecircumflex }n khai}{28}% 
+\contentsline {section}{\numberline {2.3}M\IeC {\d \ocircumflex }t s\IeC {\'\ocircumflex } nguy\IeC {\^e}n m\IeC {\~\acircumflex }u thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } trang web}{29}% 
+\contentsline {chapter}{\numberline {3}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t ch\IeC {\uhorn }\IeC {\ohorn }ng tr\IeC {\`\i }nh}{31}% 
+\contentsline {section}{\numberline {3.1}H\IeC {\`\i }nh \IeC {\h a}nh th\IeC {\d \uhorn }c t\IeC {\'\ecircumflex }}{31}% 

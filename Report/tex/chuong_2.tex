@@ -4,7 +4,7 @@
 Tên cửa hàng: Linh kiện điện tử Nam Hải\par
 Trụ sở: 030, đường Hoàng liên, đoạn gần ngân hàng Viettinbank, phường Kim Tân, Thành phố Lào Cai.\par
 Cửa hàng Nam Hải được thành lập vào năm 2017 với một cơ sở duy nhất với hai nhân viên kiêm chủ cửa hàng.\par
-Cửa hàng chuyên kinh doanh về các loại linh kiện điện tử, vi mạch điều khiển, sạch pin, ... Đối tượng mà cửa hàng nhắm tới là những người có đam mê về công nghệ, robot, tự động hóa, sinh viên các trường công nghệ.\par
+Cửa hàng chuyên kinh doanh về các loại linh kiện điện tử, vi mạch điều khiển, sạch pin,\dots Đối tượng mà cửa hàng nhắm tới là những người có đam mê về công nghệ, robot, tự động hóa, sinh viên các trường công nghệ.\par
 Hiện tại do quy mô vẫn còn nhỏ nên việc quản lý cửa hàng chỉ là thông qua giấy tờ, hóa đơn, sổ sách.
 \subsection{Thực trạng cửa hàng}
 \begin{itemize}
@@ -22,7 +22,7 @@ Hiện tại do quy mô vẫn còn nhỏ nên việc quản lý cửa hàng ch�
 			            \item Ngày nhập
 			            \item Số lượng sản phẩm nhập vào
 			            \item Nhà phân phối (nếu có)
-			            \item Các thông số đi kèm (kích thước, chức năng nổi bật, ...)
+			            \item Các thông số đi kèm (kích thước, chức năng nổi bật,\dots)
 			            \item Gía thành mỗi sản phẩm
 		            \end{itemize}
 		      \item Các thông số nêu trên đều được cửa hàng lưu lại vào sổ nhập hàng để tiện theo dõi
@@ -43,7 +43,7 @@ Hiện tại do quy mô vẫn còn nhỏ nên việc quản lý cửa hàng ch�
 		      \item\textbf{Nhược điểm:}
 		            \begin{itemize}
 			            \item Giá sản phẩm cao hơn giá gốc vì tốn tiền mặt bằng
-			            \item Khách hàng chủ yếu chỉ là khách quen, cách thức quảng cáo chính là qua truyền tai nhau giữa khách quen với những người khác hay tạo những sự kiện khuyến mãi, ... Nên không thường xuyên và không được hiệu quả trong việc tìm kiếm khách hàng tiềm năng.
+			            \item Khách hàng chủ yếu chỉ là khách quen, cách thức quảng cáo chính là qua truyền tai nhau giữa khách quen với những người khác hay tạo những sự kiện khuyến mãi,\dots Nên không thường xuyên và không được hiệu quả trong việc tìm kiếm khách hàng tiềm năng.
 			            \item Thông tin được lưu vào sổ nên việc tính toán và tra lại khá mất thời gian. Việc thống kê thường là theo từng quý (tức ba tháng một)
 		            \end{itemize}
 	      \end{itemize}
@@ -70,7 +70,7 @@ Một số chức năng cơ bản:
 		      \item Thống kê doanh thu
 	      \end{itemize}
 \end{itemize}
-\end{enumerate}
+\newpage
 \section{Phân tích và thiết kế hệ thống}
 \subsection{Biểu đồ Usecase}
 \begin{enumerate}[label=\textbf{\alph*)}]
@@ -209,6 +209,61 @@ Một số chức năng cơ bản:
 	\textbf{Kích hoạt:} Chủ cửa hàng chọn chức năng quản lý sản phẩm
 \end{boxed}
 \newpage
+\subsection{Biểu đồ lớp}
+\begin{enumerate}[label=\textbf{\alph*)}]
+	\item Lớp đăng ký
+	      \begin{figure}[h!]
+		      \centering
+		      \includegraphics[scale=0.7]{fig/class_dangky.png}
+		      \caption{Lớp đăng ký}
+	      \end{figure}
+	\item Lớp đăng nhập
+	      \begin{figure}[h!]
+		      \centering
+		      \includegraphics[scale=0.7]{fig/class_dangnhap.png}
+		      \caption{Lớp đăng nhập}
+	      \end{figure}
+          \newpage
+	\item Lớp cập nhật thông tin cá nhân
+	      \begin{figure}[h!]
+		      \centering
+		      \includegraphics[scale=0.7]{fig/class_update_info.png}
+		      \caption{Lớp cập nhật thông tin cá nhân}
+	      \end{figure}
+	\item Lớp tìm kiếm
+	      \begin{figure}[h!]
+		      \centering
+		      \includegraphics[scale=0.7]{fig/class_timkiem.png}
+		      \caption{Lớp tìm kiếm}
+	      \end{figure}
+          \newpage
+	\item Lớp mua hàng
+	      \begin{figure}[h!]
+		      \centering
+		      \includegraphics[scale=0.7]{fig/class_muahang.png}
+		      \caption{Lớp mua hàng}
+	      \end{figure}
+	\item Lớp quản lý đơn hàng
+	      \begin{figure}[h!]
+		      \centering
+		      \includegraphics[scale=0.7]{fig/class_qldonhang.png}
+		      \caption{Lớp quản lý đơn hàng}
+	      \end{figure}
+          \newpage
+	\item Lớp quản lý sản phẩm
+	      \begin{figure}[h!]
+		      \centering
+		      \includegraphics[scale=0.7]{fig/class_quanlysanpham.png}
+		      \caption{Lớp quản lý sản phẩm}
+	      \end{figure}
+	\item Lớp thống kê
+	      \begin{figure}[h!]
+		      \centering
+		      \includegraphics[scale=0.7]{fig/class_thongke.png}
+		      \caption{Lớp thống kê}
+	      \end{figure}
+\end{enumerate}
+\newpage
 \subsection{Biểu đồ hoạt động}
 \begin{enumerate}[label=\textbf{\alph*)}]
 	\item Biểu đồ hoạt động cho chức năng đăng nhập
@@ -223,6 +278,7 @@ Một số chức năng cơ bản:
 		      \includegraphics[scale=0.7]{fig/a_cart.png}
 		      \caption{Biểu đồ hoạt động cho chức năng thêm vào giỏ hàng}
 	      \end{figure}
+          \newpage
 	\item Biểu đồ hoạt động cho chức năng thanh toán
 	      \begin{figure}[h!]
 		      \centering
@@ -230,6 +286,7 @@ Một số chức năng cơ bản:
 		      \caption{Biểu đồ hoạt động cho chức năng thanh toán}
 	      \end{figure}
 \end{enumerate}
+\newpage
 \subsection{Biểu đồ tuần tự cho một số chức năng chính}
 \begin{enumerate}[label=\textbf{\alph*)}]
 	\item Chức năng lấy thông tin sản phẩm
@@ -256,13 +313,13 @@ Một số chức năng cơ bản:
 	\includegraphics[scale=0.6]{fig/er.png}
 	\caption{Biểu đồ quan hệ thực thể}
 \end{figure}
-\newpage
 \subsection{Biểu đồ triển khai}
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.6]{fig/deploy.png}
 	\caption{Biểu đồ triển khai}
 \end{figure}
+\newpage
 \section{Một số nguyên mẫu thiết kế trang web}
 \begin{enumerate}[label=\textbf{\alph*)}]
     \item Thiết kế trang chủ
@@ -271,16 +328,17 @@ Một số chức năng cơ bản:
 	        \includegraphics[width=\linewidth]{fig/p_home.jpg}
 	        \caption{Nguyên mẫu thiết kế trang chủ}
         \end{figure}
-        \newpage
-\item Thiết kế giỏ hàng
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\linewidth]{fig/p_cart.jpg}
-	\caption{Nguyên mẫu thiết kế giỏ hàng}
-\end{figure}
-\item Thiết kế trang quản trị
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\linewidth]{fig/p_dashboard.jpg}
-	\caption{Nguyên mẫu thiết kế trang chủ}
-\end{figure}
+    \item Thiết kế giỏ hàng
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=\linewidth]{fig/p_cart.jpg}
+            \caption{Nguyên mẫu thiết kế giỏ hàng}
+        \end{figure}
+    \newpage
+    \item Thiết kế trang quản trị
+        \begin{figure}[h!]
+            \centering
+            \includegraphics[width=\linewidth]{fig/p_dashboard.jpg}
+            \caption{Nguyên mẫu thiết kế trang chủ}
+        \end{figure}
+\end{enumerate}

@@ -1,7 +1,7 @@
 \chapter{Cơ sở lý thuyết}
 \section{HTML}
 \subsection{Giới thiệu ngôn ngữ:}
-HTML là ngôn ngữ được dùng để định nghĩa cấu trúc của một trang web, được ra đời vào năm 1990, cho tới hiện tại HTML đã trả qua năm phiên bản, tại phiên bản hiện tại (HTML5) HTML được bổ sung thêm nhiều tính năng mới như WebRTC, trình chơi video, drag \& drop, service worker,... giúp xây dựng các ứng dụng web đa dạng và mạnh mẽ hơn trước, ngoài ra HTML còn cung cấp một số thẻ semantic giúp bọ của những công cụ tìm kiếm như Google, Yandex,... đễ dàng đọc cấu trúc và các thành phần quan trọng của website hơn. Điều này mang tới lợi ích cho việc SEO nhưng không bắt buộc lập trình viên phải sử dụng.\par
+HTML là ngôn ngữ được dùng để định nghĩa cấu trúc của một trang web, được ra đời vào năm 1990, cho tới hiện tại HTML đã trả qua năm phiên bản, tại phiên bản hiện tại (HTML5) HTML được bổ sung thêm nhiều tính năng mới như WebRTC, trình chơi video, drag \& drop, service worker,dots giúp xây dựng các ứng dụng web đa dạng và mạnh mẽ hơn trước, ngoài ra HTML còn cung cấp một số thẻ semantic giúp bọ của những công cụ tìm kiếm như Google, Yandex,dots đễ dàng đọc cấu trúc và các thành phần quan trọng của website hơn. Điều này mang tới lợi ích cho việc SEO nhưng không bắt buộc lập trình viên phải sử dụng.\par
 \subsection{Cú pháp cơ bản}
 Cú pháp và thẻ trong HTML không cần độ chính xác tuyệt đối để chạy được
 giống như những ngôn ngữ như XML, XHTML thay vào đó những thẻ hay cú pháp khác thường mà trình duyệt không hỗ trợ thì sẽ bị trình duyệt lờ đi và không có tác dụng gì, việc này giúp các trình duyệt phiên bản cũ vẫn có thể xem được nhưng trang HTML phiên bản cao hơn tuy rằng những trình duyệt này sẽ không thể sử dụng được các tính năng mới được cung cấp (Đảm bảo tính tương thích ngược).\par
@@ -12,7 +12,7 @@ Hiện nay HTML đang muốn hướng lập trình viên tạo ra những trang 
 		\textbf{Thẻ} & \textbf{Chức năng}                                                \\ \cline{1-2}
 		<article>    & Liệt kê các bài viết                                              \\ \cline{1-2}
 		<aside>      & Phần nội dung bên lề                                              \\ \cline{1-2}
-		<figure>     & Chứa các hình ảnh, biểu đồ, ....                                  \\ \cline{1-2}
+		<figure>     & Chứa các hình ảnh, biểu đồ, dots.                                  \\ \cline{1-2}
 		<figcaption> & Chứa phần mô tả hình ảnh cho thẻ <figure>                         \\ \cline{1-2}
 		<header>     & Phần đầu trang web                                                \\ \cline{1-2}
 		<footer>     & Phần chân trang                                                   \\ \cline{1-2}
@@ -22,7 +22,7 @@ Hiện nay HTML đang muốn hướng lập trình viên tạo ra những trang 
 		<section>    & Định nghĩa các phân đoạn trong trang web                          \\ \cline{1-2}
 		<details>    & Chứa nội dung chi tiết, người dùng có thể xem hay ẩn đi           \\ \cline{1-2}
 		<summary>    & Nêu tóm lược nội dung, kết hợp với thẻ <details>                  \\ \cline{1-2}
-		<time>       & Thời gian, có thể là thời gian đăng bài, thời gian chỉnh sửa, ... \\ \cline{1-2}
+		<time>       & Thời gian, có thể là thời gian đăng bài, thời gian chỉnh sửa, dots \\ \cline{1-2}
 		<video>      & Nhúng nội dung video vào trang web                                \\ \cline{1-2}
 	\end{tabular}
 \end{center}
@@ -42,7 +42,7 @@ Một file HTML thường có phần mở rộng là \textbf{*.html} và có c�
  </html>
 \end{lstlisting}
 \end{center}
-Cặp thẻ <html><html> được dùng để bao toàn bộ nội dung file html, cặp thẻ <head></head> dùng để chứa khai báo về trang web như tiêu đề, nối các file css, các siêu nội dung (meta-content),... Cuối cùng là cặp thẻ <body> dùng để chứa nội dung của toàn bộ trang web.
+Cặp thẻ <html><html> được dùng để bao toàn bộ nội dung file html, cặp thẻ <head></head> dùng để chứa khai báo về trang web như tiêu đề, nối các file css, các siêu nội dung (meta-content),dots Cuối cùng là cặp thẻ <body> dùng để chứa nội dung của toàn bộ trang web.
 \section{CSS}
 CSS là ngôn ngữ dùng để bổ sung các thuộc tính hiển thị cho trang web về mặt màu sắc và cách thức hiện thị của nội dung trên trang web bằng cách định nghĩa các thuộc tính cho những thẻ HTML trong trang web, các thuộc tính này phải được trình duyệt hỗ trợ, trong trường hợp cố tình dùng những thuộc tính không được hỗ trợ, trình duyệt sẽ lờ những thuộc tính đó và chỉthực thi các thuộc tính được hỗ trợ.\par
 Hiện tại phiên bản mới nhất của CSS là CSS 3 với rất nhiều thuộc tính mới giúp việc căn chỉnh các thành phần của trang web dễ dàng hơn, một số tính năng đáng nói có thể kể đến như:
@@ -104,7 +104,7 @@ Việc thêm thư viện javascript vào trước đóng thẻ </body> giúp tr�
 \textbf{Lưu ý:} Phải đặt Jquery trước các thư viện javascript khác vì đa phần những thư viện của Bootstrap đều dùng Jquery và sẽ không hoạt động nếu thiếu Jquery.
 \section{PHP}
 \subsection{Giới thiệu ngôn ngữ}
-Php là một ngôn ngữ chạy ở phía Server (backend) dùng để nhận truy vấn từ người dùng, xử lý và trả về thông tin phù hợp, tuy được coi là một ngôn ngữ có độ bảo mật không được cao xong đây lại là một ngôn ngữ dễ học với cộng đồng hỗ trợ và phát triển đông đảo, hiện tại phần lớn các website trên internet vẫn sử dụng php, Php cũng được sử dụng trong nhiều framework nổi tiếng có thể kể đến như: Joomla, Wordpress, Laravel, Code Igniter,...\par
+Php là một ngôn ngữ chạy ở phía Server (backend) dùng để nhận truy vấn từ người dùng, xử lý và trả về thông tin phù hợp, tuy được coi là một ngôn ngữ có độ bảo mật không được cao xong đây lại là một ngôn ngữ dễ học với cộng đồng hỗ trợ và phát triển đông đảo, hiện tại phần lớn các website trên internet vẫn sử dụng php, Php cũng được sử dụng trong nhiều framework nổi tiếng có thể kể đến như: Joomla, Wordpress, Laravel, Code Igniter,dots\par
 Tuy là vậy nhưng Php thuần cũng có những nhược điểm như dễ học nhưng không dễ viết, vì php thuần không hề bó buộc lập trình viên phải lập trình theo một tiêu chuẩn nhất định như những ngôn ngữ khác, lập trình viên có thể tùy ý dùng snake\_case để khai báo tên lớp, tên hàm, cũng có thể dùng CamelCase; Tên lớp cũng có thể không giống với tên file dễ gây nhầm lẫn.\par
 Từ những vấn đề đó cộng đồng đã cùng đưa ra bộ chuẩn PSR (Php Standards Recommendations) nhằm đưa ra các khuyến nghị để thống nhất cách viết php, tuy nhiên đây cũng chỉ là những khuyến nghị (Recommandations) chứ không được tích hợp vào ngôn ngữ nên những lập trình viên khi lần đầu sử dụng dễ viết ra những chương trình chạy được nhưng lại khó để duy trì và phát triển cũng như khó để hai lập trình viên có thể viết cùng một code base (do phong cách code của mỗi người là khác nhau).
 \subsection{Cú pháp cơ bản}
@@ -114,17 +114,17 @@ Ngôn ngữ Php được viết dựa vào ngôn ngữ C nên phong cách code m
 \begin{center}
 	\vspace{-2em}
 	\begin{lstlisting}[frame=single]
-<?php
-    function helloWord()
-    {
-        echo 'Hello World';
-    }
-    helloWorld(); //return Hello World
+    <?php
+        function helloWord()
+        {
+            echo "Hello World";
+        }
+        helloWorld(); //return Hello World
 \end{lstlisting}
 \end{center}
 \section{MySQL}
 \subsection{Giới thiệu về MySQL}
-MySQL là một hệ cơ sở dữ liệu quan hệ, trong hệ cơ sở dữ liệu quan hệ dữ liệu được biểu dưới dạng các bảng có liên kết với nhau dựa vào khóa chính hay các khóa phụ. Hiện nay có rất nhiều hệ cơ sở dữ liệu quan hệ như: Oracle, Portgre, mariadb (một bản folk của MySQL),... Tuy nhiên lý do MySQL được chọn là vì:
+MySQL là một hệ cơ sở dữ liệu quan hệ, trong hệ cơ sở dữ liệu quan hệ dữ liệu được biểu dưới dạng các bảng có liên kết với nhau dựa vào khóa chính hay các khóa phụ. Hiện nay có rất nhiều hệ cơ sở dữ liệu quan hệ như: Oracle, Portgre, mariadb (một bản folk của MySQL),dots Tuy nhiên lý do MySQL được chọn là vì:
 \begin{enumerate}
 	\vspace{-1em}
 	\itemsep0em
@@ -139,7 +139,7 @@ MySQL là một hệ cơ sở dữ liệu quan hệ, trong hệ cơ sở dữ li
 		\cline{1-2}
 		\textbf{Công việc cần làm} & \textbf{câu lệnh}                                                                                                                   \\ \cline{1-2}
 		Lấy thông tin từ bảng      & SELECT * FROM tên\_bảng WHERE điều\_kiện                                                                                            \\ \cline{1-2}
-		Nhập thông tin vào bảng    & INSERT INTO Tên\_bảng (tên\_cột\_1, tên\_cột\_2, tên\_cột\_3,...) VALUES (giá\_trị\_cột\_1, giá\_trị\_cột\_2, giá\_trị\_cột\_3,...) \\ \cline{1-2}
+		Nhập thông tin vào bảng    & INSERT INTO Tên\_bảng (tên\_cột\_1, tên\_cột\_2, tên\_cột\_3,dots) VALUES (giá\_trị\_cột\_1, giá\_trị\_cột\_2, giá\_trị\_cột\_3,dots) \\ \cline{1-2}
 		Xóa thông tin khỏi bảng    & DELETE FROM Tên\_bảng WHERE Điều\_kiện                                                                                              \\ \cline{1-2}
 		Cập nhật thông tin bảng    & UPDATE Tên\_bảng SET cột\_1 = giá\_trị\_mới, cột\_2 = giá\_trị\_mới, cột\_n = giá\_trị\_mới WHERE điều\_kiện                        \\ \cline{1-2}
 	\end{tabularx}
