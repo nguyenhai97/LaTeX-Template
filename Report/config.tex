@@ -18,6 +18,12 @@
 	\cfoot[]{\thepage}
 	\setcounter{page}{1}
 }
+\newcommand{\Pointilles}[2][3]{%
+    \par\nobreak
+    \noindent\rule{0pt}{1.5\baselineskip}% Provides a larger gap between the preceding paragraph and the dots
+    \multido{}{#2}{\noindent\makebox[\linewidth]{\rule{0pt}{#1\baselineskip}\dotfill}\endgraf}% ... dotted lines ...
+    \bigskip% Gap between dots and next paragraph
+}
 \newenvironment{boxed}
     {
     \begin{tabular}{|p{0.9\textwidth}|}

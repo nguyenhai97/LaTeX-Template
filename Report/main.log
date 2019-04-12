@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.5)  12 APR 2019 02:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.4.5)  12 APR 2019 03:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -659,26 +659,38 @@ s
 \f@nch@O@erf=\skip56
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
-) (./config.tex)
-(./main.aux (./tex/loi_mo_dau.aux) (./tex/chuong_1.aux) (./tex/chuong_2.aux)
-(./tex/chuong_3.aux))
+)
+(/usr/share/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(/usr/share/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count126
+\multidocount=\count127
+\multido@stuff=\toks36
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+) (./config.tex) (./main.aux (./tex/loi_mo_dau.aux)
+(./tex/chuong_1.aux) (./tex/chuong_2.aux) (./tex/chuong_3.aux)
+(./tex/ketluan.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Try loading font information for T5+ptm on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for T5+ptm on input line 36.
  (/usr/share/texmf-dist/tex/latex/vntex/t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 )
@@ -718,17 +730,17 @@ File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
+\scratchcounter=\count128
 \scratchdimen=\dimen178
 \scratchbox=\box45
-\nofMPsegments=\count127
-\nofMParguments=\count128
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count129
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count131
 \MPscratchDim=\dimen179
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
-\everyMPtoPDFconversion=\toks37
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -777,7 +789,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box46
-\c@lstlisting=\count132
+\c@lstlisting=\count134
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -811,23 +823,23 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 37.
 <fig/Logo_ICTU.png, id=4, 359.3425pt x 359.3425pt>
 File: fig/Logo_ICTU.png Graphic file (type png)
 <use fig/Logo_ICTU.png>
-Package pdftex.def Info: fig/Logo_ICTU.png  used on input line 35.
+Package pdftex.def Info: fig/Logo_ICTU.png  used on input line 37.
 (pdftex.def)             Requested size: 100.37537pt x 100.37395pt.
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <18> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 35.
+(Font)              <7> on input line 37.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.35 \maketitle
+l.37 \maketitle
                
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -836,7 +848,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.35 \maketitle
+l.37 \maketitle
                
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -846,7 +858,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 LaTeX Font Info:    Font shape `T5/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T5/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `T5/ptm/b/n' tried instead on input line 37.
 [1
 
 
@@ -1055,126 +1067,139 @@ Package pdftex.def Info: fig/s_add_to_cart.png  used on input line 305.
 (pdftex.def)             Requested size: 440.84293pt x 243.4573pt.
 [26 <./fig/s_get_product_info.png> <./fig/s_update_product_info.png>] [27 <./fi
 g/s_add_to_cart.png>]
-<fig/er.png, id=139, 534.99875pt x 679.53876pt>
+<fig/class.png, id=139, 471.7625pt x 508.90125pt>
+File: fig/class.png Graphic file (type png)
+<use fig/class.png>
+Package pdftex.def Info: fig/class.png  used on input line 313.
+(pdftex.def)             Requested size: 330.23149pt x 356.22844pt.
+ [28 <./fig/class.png>]
+<fig/er.png, id=145, 534.99875pt x 679.53876pt>
 File: fig/er.png Graphic file (type png)
 <use fig/er.png>
-Package pdftex.def Info: fig/er.png  used on input line 313.
+Package pdftex.def Info: fig/er.png  used on input line 320.
 (pdftex.def)             Requested size: 321.00172pt x 407.72641pt.
-<fig/deploy.png, id=140, 719.68875pt x 182.6825pt>
+<fig/deploy.png, id=146, 719.68875pt x 182.6825pt>
 File: fig/deploy.png Graphic file (type png)
 <use fig/deploy.png>
-Package pdftex.def Info: fig/deploy.png  used on input line 319.
+Package pdftex.def Info: fig/deploy.png  used on input line 326.
 (pdftex.def)             Requested size: 431.81659pt x 109.61034pt.
- [28 <./fig/er.png> <./fig/deploy.png>]
-<fig/p_home.jpg, id=147, 3677.74pt x 2304.61pt>
+ [29 <./fig/er.png> <./fig/deploy.png>]
+<fig/p_home.jpg, id=152, 3677.74pt x 2304.61pt>
 File: fig/p_home.jpg Graphic file (type jpg)
 <use fig/p_home.jpg>
-Package pdftex.def Info: fig/p_home.jpg  used on input line 328.
+Package pdftex.def Info: fig/p_home.jpg  used on input line 335.
 (pdftex.def)             Requested size: 455.24411pt x 285.2623pt.
-<fig/p_cart.jpg, id=148, 3597.44pt x 1521.685pt>
+<fig/p_cart.jpg, id=153, 3597.44pt x 1521.685pt>
 File: fig/p_cart.jpg Graphic file (type jpg)
 <use fig/p_cart.jpg>
-Package pdftex.def Info: fig/p_cart.jpg  used on input line 334.
+Package pdftex.def Info: fig/p_cart.jpg  used on input line 341.
 (pdftex.def)             Requested size: 455.24411pt x 192.55528pt.
- [29 <./fig/p_home.JPG> <./fig/p_cart.JPG>]
-<fig/p_dashboard.jpg, id=152, 3155.79pt x 2264.46pt>
+ [30 <./fig/p_home.JPG> <./fig/p_cart.JPG>]
+<fig/p_dashboard.jpg, id=157, 3155.79pt x 2264.46pt>
 File: fig/p_dashboard.jpg Graphic file (type jpg)
 <use fig/p_dashboard.jpg>
-Package pdftex.def Info: fig/p_dashboard.jpg  used on input line 341.
+Package pdftex.def Info: fig/p_dashboard.jpg  used on input line 348.
 (pdftex.def)             Requested size: 455.24411pt x 326.66248pt.
-) [30 <./fig/p_dashboard.JPG>]
+) [31 <./fig/p_dashboard.JPG>]
 \openout2 = `tex/chuong_3.aux'.
 
- (./tex/chuong_3.tex
+
+(./tex/chuong_3.tex
 Ch\uhorn \ohorn ng 3.
-<fig/r_home.png, id=156, 1339.0025pt x 1027.84pt>
+<fig/r_home.png, id=161, 1339.0025pt x 1027.84pt>
 File: fig/r_home.png Graphic file (type png)
 <use fig/r_home.png>
 Package pdftex.def Info: fig/r_home.png  used on input line 6.
 (pdftex.def)             Requested size: 361.5355pt x 277.52051pt.
-<fig/r_product_details.png, id=157, 1339.0025pt x 734.745pt>
+<fig/r_product_details.png, id=162, 1339.0025pt x 734.745pt>
 File: fig/r_product_details.png Graphic file (type png)
 <use fig/r_product_details.png>
 Package pdftex.def Info: fig/r_product_details.png  used on input line 11.
 (pdftex.def)             Requested size: 361.5355pt x 198.38379pt.
-[31
+[32
 
 
 
  <./fig/r_home.png> <./fig/r_product_details.png>]
-<fig/r_cart.png, id=163, 1339.0025pt x 699.61375pt>
+<fig/r_cart.png, id=168, 1339.0025pt x 699.61375pt>
 File: fig/r_cart.png Graphic file (type png)
 <use fig/r_cart.png>
 Package pdftex.def Info: fig/r_cart.png  used on input line 17.
 (pdftex.def)             Requested size: 455.24411pt x 237.85484pt.
-<fig/r_make_order.png, id=164, 1345.025pt x 655.44875pt>
+<fig/r_make_order.png, id=169, 1345.025pt x 655.44875pt>
 File: fig/r_make_order.png Graphic file (type png)
 <use fig/r_make_order.png>
 Package pdftex.def Info: fig/r_make_order.png  used on input line 22.
 (pdftex.def)             Requested size: 455.24411pt x 221.84949pt.
- [32 <./fig/r_cart.png> <./fig/r_make_order.png>]
-<fig/r_user1.png, id=170, 1351.0475pt x 663.47874pt>
+ [33 <./fig/r_cart.png> <./fig/r_make_order.png>]
+<fig/r_user1.png, id=175, 1351.0475pt x 663.47874pt>
 File: fig/r_user1.png Graphic file (type png)
 <use fig/r_user1.png>
 Package pdftex.def Info: fig/r_user1.png  used on input line 28.
 (pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
-<fig/r_user2.png, id=171, 1351.0475pt x 663.47874pt>
+<fig/r_user2.png, id=176, 1351.0475pt x 663.47874pt>
 File: fig/r_user2.png Graphic file (type png)
 <use fig/r_user2.png>
 Package pdftex.def Info: fig/r_user2.png  used on input line 33.
 (pdftex.def)             Requested size: 455.24411pt x 223.56514pt.
- [33 <./fig/r_user1.png> <./fig/r_user2.png>]
-<fig/r_manage_statistics.png, id=177, 1357.07pt x 641.39626pt>
+ [34 <./fig/r_user1.png> <./fig/r_user2.png>]
+<fig/r_manage_statistics.png, id=183, 1357.07pt x 641.39626pt>
 File: fig/r_manage_statistics.png Graphic file (type png)
 <use fig/r_manage_statistics.png>
 Package pdftex.def Info: fig/r_manage_statistics.png  used on input line 39.
 (pdftex.def)             Requested size: 455.24411pt x 215.15533pt.
-<fig/r_manage_product.png, id=178, 1357.07pt x 641.39626pt>
+<fig/r_manage_product.png, id=184, 1357.07pt x 641.39626pt>
 File: fig/r_manage_product.png Graphic file (type png)
 <use fig/r_manage_product.png>
 Package pdftex.def Info: fig/r_manage_product.png  used on input line 44.
 (pdftex.def)             Requested size: 455.24411pt x 215.15533pt.
- [34 <./fig/r_manage_statistics.png> <./fig/r_manage_product.png>]
-<fig/r_manage_product_add_product.png, id=185, 1345.025pt x 643.40375pt>
+ [35 <./fig/r_manage_statistics.png> <./fig/r_manage_product.png>]
+<fig/r_manage_product_add_product.png, id=190, 1345.025pt x 643.40375pt>
 File: fig/r_manage_product_add_product.png Graphic file (type png)
 <use fig/r_manage_product_add_product.png>
 Package pdftex.def Info: fig/r_manage_product_add_product.png  used on input li
 ne 50.
 (pdftex.def)             Requested size: 455.24411pt x 217.77263pt.
-<fig/r_manage_product_update_product.png, id=186, 1345.025pt x 643.40375pt>
+<fig/r_manage_product_update_product.png, id=191, 1345.025pt x 643.40375pt>
 File: fig/r_manage_product_update_product.png Graphic file (type png)
 <use fig/r_manage_product_update_product.png>
 Package pdftex.def Info: fig/r_manage_product_update_product.png  used on input
  line 55.
 (pdftex.def)             Requested size: 455.24411pt x 217.77263pt.
- [35 <./fig/r_manage_product_add_product.png> <./fig/r_manage_product_update_pr
+ [36 <./fig/r_manage_product_add_product.png> <./fig/r_manage_product_update_pr
 oduct.png>]
-<fig/r_order.png, id=192, 1345.025pt x 724.7075pt>
+<fig/r_order.png, id=197, 1345.025pt x 724.7075pt>
 File: fig/r_order.png Graphic file (type png)
 <use fig/r_order.png>
 Package pdftex.def Info: fig/r_order.png  used on input line 61.
 (pdftex.def)             Requested size: 455.24411pt x 245.29147pt.
- [36 <./fig/r_order.png>]) (./main.aux (./tex/loi_mo_dau.aux) (./tex/chuong_1.a
-ux)
-(./tex/chuong_2.aux) (./tex/chuong_3.aux)) ) 
+ [37 <./fig/r_order.png>])
+\openout2 = `tex/ketluan.aux'.
+
+ (./tex/ketluan.tex) [38
+
+
+] (./main.aux (./tex/loi_mo_dau.aux)
+(./tex/chuong_1.aux) (./tex/chuong_2.aux) (./tex/chuong_3.aux)
+(./tex/ketluan.aux)) ) 
 Here is how much of TeX's memory you used:
- 18535 strings out of 492616
- 339795 string characters out of 6135178
- 691737 words of memory out of 5000000
- 22034 multiletter control sequences out of 15000+600000
+ 18607 strings out of 492616
+ 340918 string characters out of 6135178
+ 693219 words of memory out of 5000000
+ 22091 multiletter control sequences out of 15000+600000
  28258 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,57p,906b,3006s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dv
-ips/vntex/t5.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/ucrb8v.pfb></usr/share/texmf-
-dist/fonts/type1/vntex/urwvn/ucrr8v.pfb></usr/share/texmf-dist/fonts/type1/vnte
-x/urwvn/ucrro8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmb8v.pfb><
-/usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmr8v.pfb>
-Output written on main.pdf (39 pages, 7067656 bytes).
+ 55i,13n,57p,906b,3010s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/vntex/t5.enc}</usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-d
+ist/fonts/type1/vntex/urwvn/ucrb8v.pfb></usr/share/texmf-dist/fonts/type1/vntex
+/urwvn/ucrr8v.pfb></usr/share/texmf-dist/fonts/type1/vntex/urwvn/ucrro8v.pfb></
+usr/share/texmf-dist/fonts/type1/vntex/urwvn/utmb8v.pfb></usr/share/texmf-dist/
+fonts/type1/vntex/urwvn/utmr8v.pfb>
+Output written on main.pdf (41 pages, 7093484 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 230 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
